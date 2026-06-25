@@ -202,3 +202,65 @@ nav:
 {chr(10).join(nav_entries)}
 """
     (PROJECT_ROOT / "mkdocs.yml").write_text(content, encoding="utf-8")
+
+
+def load_progress() -> dict:
+    if PROGRESS_FILE.exists():
+        return json.loads(PROGRESS_FILE.read_text())
+    return {"done": [], "translated_titles": {}}
+
+
+def save_progress(done: list[int], translated_titles: dict[str, str]) -> None:
+    PROGRESS_FILE.write_text(json.dumps(
+        {"done": done, "translated_titles": translated_titles}, indent=2
+    ))
+
+
+def main() -> None:
+    IMAGES_DIR.mkdir(parents=True, exist_ok=True)
+    DOCS_DIR.mkdir(parents=True, exist_ok=True)
+
+    progress = load_progress()
+    done: list[int] = progress["done"]
+    translated_titles: dict[str, str] = progress["translated_titles"]
+
+    doc = fitz.open(str(PDF_PATH))
+    chapters = get_chapter_ranges(PDF_PATH)
+
+    print(f"Found {len(chapters)} chapters. Already done: {done}")
+
+    for chapter in chapters:
+        if chapter.num in done:
+            print(f"  [{chapter.num:02d}] {chapter.title} — skipped (already done)")
+            continue
+
+        print(f"  [{chapter.num:02d}] {chapter.title} (pp{chapter.start_page+1}-{chapter.end_page+1})")
+
+        print("    Extracting...", end=" ", flush=True)
+        content = extract_chapter_content(doc, chapter, IMAGES_DIR)
+        print(f"ok ({len(content)} chars)")
+
+        print("    Translating title...", end=" ", flush=True)
+        translated_title = translate_text(chapter.title)
+        translated_titles[str(chapter.num)] = translated_title
+        print(f"ok → {translated_title!r}")
+
+        print("    Translating content...")
+        translated_content = translate_chapter_content(content)
+
+        write_chapter_md(chapter, translated_title, translated_content, DOCS_DIR)
+        done.append(chapter.num)
+        save_progress(done, translated_titles)
+        print(f"    Saved cap{chapter.num:02d}-{chapter.slug}.md")
+
+    doc.close()
+
+    # Convert string keys back to int for index/nav functions
+    int_titles = {int(k): v for k, v in translated_titles.items()}
+    generate_index_md(chapters, int_titles, DOCS_DIR)
+    write_mkdocs_yml(chapters, int_titles)
+    print("\nDone! Run: python3.12 -m mkdocs serve")
+
+
+if __name__ == "__main__":
+    main()
