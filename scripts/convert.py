@@ -104,8 +104,9 @@ def extract_chapter_content(doc: fitz.Document, chapter: Chapter, images_dir: Pa
     return "\n\n".join(parts)
 
 
-def translate_text(text: str) -> str:
+def translate_text(text: str, retries: int = 3, backoff: int = 10) -> str:
     """Translate a single chunk of English text to Spanish using claude -p."""
+    import time
     prompt = (
         "Sos un traductor técnico. Traducí el siguiente texto de un manual de auto "
         "del inglés al español. Conservá todo el formato Markdown, las listas, los "
@@ -113,16 +114,20 @@ def translate_text(text: str) -> str:
         "Devolvé únicamente el texto traducido, sin explicaciones ni comentarios.\n\n"
         + text
     )
-    result = subprocess.run(
-        ["claude", "-p"],
-        input=prompt,
-        capture_output=True,
-        text=True,
-        timeout=300,
-    )
-    if result.returncode != 0:
-        raise RuntimeError(f"Translation failed (exit {result.returncode}): {result.stderr[:200]}")
-    return result.stdout.strip()
+    for attempt in range(1, retries + 1):
+        result = subprocess.run(
+            ["claude", "-p"],
+            input=prompt,
+            capture_output=True,
+            text=True,
+            timeout=300,
+        )
+        if result.returncode == 0:
+            return result.stdout.strip()
+        wait = backoff * attempt
+        print(f" [attempt {attempt}/{retries} failed, retrying in {wait}s]", flush=True)
+        time.sleep(wait)
+    raise RuntimeError(f"Translation failed after {retries} attempts (exit {result.returncode}): {result.stderr[:200]}")
 
 
 def translate_chapter_content(content: str) -> str:
