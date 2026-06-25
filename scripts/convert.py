@@ -150,3 +150,55 @@ def translate_chapter_content(content: str) -> str:
         print("ok")
 
     return "\n\n".join(translated_parts)
+
+
+def write_chapter_md(chapter: Chapter, translated_title: str, content: str, docs_dir: Path) -> Path:
+    """Write a translated chapter to docs/capXX-slug.md."""
+    filename = f"cap{chapter.num:02d}-{chapter.slug}.md"
+    path = docs_dir / filename
+    header = f"# {translated_title}\n\n"
+    path.write_text(header + content, encoding="utf-8")
+    return path
+
+
+def generate_index_md(chapters: list[Chapter], translated_titles: dict[int, str], docs_dir: Path) -> None:
+    """Write docs/index.md with chapter list and short descriptions."""
+    lines = [
+        "# Manual de Usuario — XPeng G6\n",
+        "> Manual traducido al español. Versión del sistema: V5.8.0.\n",
+        "## Capítulos\n",
+    ]
+    for ch in chapters:
+        title = translated_titles.get(ch.num, ch.title)
+        filename = f"cap{ch.num:02d}-{ch.slug}.md"
+        lines.append(f"- [{ch.num}. {title}]({filename})")
+    (docs_dir / "index.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
+
+
+def write_mkdocs_yml(chapters: list[Chapter], translated_titles: dict[int, str]) -> None:
+    """Write mkdocs.yml with full nav."""
+    nav_entries = ["  - Índice: index.md"]
+    for ch in chapters:
+        title = translated_titles.get(ch.num, ch.title)
+        filename = f"cap{ch.num:02d}-{ch.slug}.md"
+        nav_entries.append(f"  - '{ch.num}. {title}': {filename}")
+
+    content = f"""site_name: XPeng G6 — Manual de Usuario
+site_url: https://germanpereyra.github.io/xpeng-g6-manual/  # replace with your GitHub username
+
+theme:
+  name: material
+  language: es
+  features:
+    - navigation.instant
+    - navigation.top
+    - search.highlight
+
+plugins:
+  - search:
+      lang: es
+
+nav:
+{chr(10).join(nav_entries)}
+"""
+    (PROJECT_ROOT / "mkdocs.yml").write_text(content, encoding="utf-8")
