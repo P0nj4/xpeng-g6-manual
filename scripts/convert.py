@@ -102,3 +102,51 @@ def extract_chapter_content(doc: fitz.Document, chapter: Chapter, images_dir: Pa
             parts.append(f"![Imagen {image_count}](images/{img_name})")
 
     return "\n\n".join(parts)
+
+
+def translate_text(text: str) -> str:
+    """Translate a single chunk of English text to Spanish using claude -p."""
+    prompt = (
+        "Sos un traductor técnico. Traducí el siguiente texto de un manual de auto "
+        "del inglés al español. Conservá todo el formato Markdown, las listas, los "
+        "encabezados y las referencias a imágenes exactamente como están. "
+        "Devolvé únicamente el texto traducido, sin explicaciones ni comentarios.\n\n"
+        + text
+    )
+    result = subprocess.run(
+        ["claude", "-p"],
+        input=prompt,
+        capture_output=True,
+        text=True,
+        timeout=300,
+    )
+    if result.returncode != 0:
+        raise RuntimeError(f"Translation failed (exit {result.returncode}): {result.stderr[:200]}")
+    return result.stdout.strip()
+
+
+def translate_chapter_content(content: str) -> str:
+    """Split content into CHUNK_SIZE chunks, translate each, reassemble."""
+    if len(content) <= CHUNK_SIZE:
+        return translate_text(content)
+
+    # Split at paragraph boundaries
+    paragraphs = content.split("\n\n")
+    chunks: list[str] = []
+    current = ""
+    for para in paragraphs:
+        if len(current) + len(para) > CHUNK_SIZE and current:
+            chunks.append(current.strip())
+            current = para
+        else:
+            current = current + "\n\n" + para if current else para
+    if current.strip():
+        chunks.append(current.strip())
+
+    translated_parts = []
+    for i, chunk in enumerate(chunks, 1):
+        print(f"    chunk {i}/{len(chunks)} ({len(chunk)} chars)...", end=" ", flush=True)
+        translated_parts.append(translate_text(chunk))
+        print("ok")
+
+    return "\n\n".join(translated_parts)
