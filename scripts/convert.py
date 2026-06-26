@@ -151,6 +151,8 @@ def translate_chapter_content(content: str) -> str:
     translated_parts = []
     for i, chunk in enumerate(chunks, 1):
         print(f"    chunk {i}/{len(chunks)} ({len(chunk)} chars)...", end=" ", flush=True)
+        if i > 1:
+            import time; time.sleep(3)
         translated_parts.append(translate_text(chunk))
         print("ok")
 
