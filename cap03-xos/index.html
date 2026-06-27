@@ -1,0 +1,2283 @@
+
+<!doctype html>
+<html lang="es" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://p0nj4.github.io/xpeng-g6-manual/cap03-xos/">
+      
+      
+        <link rel="prev" href="../cap02-perfil-vehiculo/">
+      
+      
+        <link rel="next" href="../cap04-asistencia-realidad-virtual/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+    
+    
+      
+        <title>3. XOS - XPeng G6 — Manual de Usuario</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#xos" class="md-skip">
+          Saltar a contenido
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabecera">
+    <a href=".." title="XPeng G6 — Manual de Usuario" class="md-header__button md-logo" aria-label="XPeng G6 — Manual de Usuario" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            XPeng G6 — Manual de Usuario
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              3. XOS
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Búsqueda" placeholder="Búsqueda" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Buscar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpiar" aria-label="Limpiar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando búsqueda
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navegación" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="XPeng G6 — Manual de Usuario" class="md-nav__button md-logo" aria-label="XPeng G6 — Manual de Usuario" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    XPeng G6 — Manual de Usuario
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Índice
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cap01-bienvenida/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    1. Hola, amigo de XPENG
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cap02-perfil-vehiculo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2. Perfil del Vehículo
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    3. XOS
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cap04-asistencia-realidad-virtual/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    4. Asistencia de Realidad Virtual en Tiempo Real
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cap05-imagen-inteligente/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    5. Imágenes Inteligentes
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cap06-asistencia-conduccion/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    6. Asistencia a la conducción
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cap07-estacionamiento-asistido/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    7. Estacionamiento asistido
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cap08-seguridad-activa/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    8. Seguridad activa
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cap09-viaje-seguro/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    9. Viajar con tranquilidad
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cap10-entrada-salida/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    10. Entrada y salida
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cap11-operacion-conduccion/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    11. Operación de Conducción
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cap12-configuracion-confort/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    12. Configuración de Confort
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cap13-instrucciones-carga/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    13. Instrucciones de Carga
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cap14-mantenimiento-diario/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    14. Mantenimiento Diario
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cap15-rescate-emergencia/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    15. Rescate de Emergencia
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cap16-informacion-vehiculo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    16. Información del Vehículo
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
+  
+  
+  
+    
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="xos">XOS</h1>
+<p>XOS</p>
+<p>Visualización del Tablero</p>
+<p>Pantalla de la Página</p>
+<p>1.
+Luz Indicadora</p>
+<ol>
+<li>Velocidad</li>
+</ol>
+<p>• Las luces indicadoras están ubicadas en
+diferentes posiciones del tablero de
+instrumentos para reflejar el estado de las
+funciones del vehículo.</p>
+<ol>
+<li>
+<p>Marcha</p>
+</li>
+<li>
+<p>Modo de Conducción Inteligente</p>
+</li>
+</ol>
+<p>• Muestra el estado del vehículo.</p>
+<p><img alt="Imagen 1" src="../images/cap03-img01.png" /></p>
+<p>XOS</p>
+<p>• Muestra el entorno exterior simulado del
+vehículo.</p>
+<ol>
+<li>Área de información del lado derecho</li>
+</ol>
+<p>• La información mostrada se puede cambiar
+utilizando la rueda de desplazamiento del
+volante, y puede elegir el estado del
+vehículo, el consumo de energía, el
+kilometraje, la navegación, la música, etc.</p>
+<ol>
+<li>
+<p>Hora</p>
+</li>
+<li>
+<p>Temperatura ambiente exterior</p>
+</li>
+<li>
+<p>Autonomía</p>
+</li>
+</ol>
+<p>• En la interfaz del CID “ 
+ →Carga
+y Descarga→Carga”, se puede
+cambiar la visualización entre Dinámica y WLTP.</p>
+<ol>
+<li>
+<p>Modos de Conducción Ver página 236</p>
+</li>
+<li>
+<p>Carga</p>
+</li>
+</ol>
+<p>• En la interfaz del CID “ 
+ →Carga
+y Descarga→Carga”, se puede
+activar/desactivar la “Visualización del Porcentaje de Batería”.</p>
+<p><img alt="Imagen 2" src="../images/cap03-img02.png" /></p>
+<p>XOS</p>
+<p>Indicadores del Tablero
+Después de encender el vehículo, algunos indicadores se iluminarán. Una vez que el sistema completa la
+autoverificación, estos indicadores se apagarán si el sistema funciona con normalidad. Algunos indicadores se iluminan para mostrar
+el estado actual de las funciones del sistema del vehículo, no una falla del sistema. Si hay algo que no quede claro durante el uso diario
+del vehículo, consulte el Centro de Servicio de XPENG.</p>
+<p>indicator_high_beam(ON)
+Falla del SRS</p>
+<p>indicator_smart_high_beam(ON)
+Cinturón de seguridad del conductor sin abrochar</p>
+<p>indicator_smart_high_beam_error
+Cinturón de seguridad del pasajero delantero sin abrochar</p>
+<p>indicator_smart_high_beam_standby
+Cinturón de seguridad del pasajero trasero izquierdo
+sin abrochar</p>
+<p>indicator_left_turn_lamp
+Cinturón de seguridad del pasajero trasero central
+sin abrochar</p>
+<p>indicator_right_turn_lamp
+Cinturón de seguridad del pasajero trasero derecho
+sin abrochar</p>
+<p><img alt="Imagen 3" src="../images/cap03-img03.png" /></p>
+<p><img alt="Imagen 4" src="../images/cap03-img04.png" /></p>
+<p><img alt="Imagen 5" src="../images/cap03-img05.png" /></p>
+<p><img alt="Imagen 6" src="../images/cap03-img06.png" /></p>
+<p><img alt="Imagen 7" src="../images/cap03-img07.png" /></p>
+<p><img alt="Imagen 8" src="../images/cap03-img08.png" /></p>
+<p><img alt="Imagen 9" src="../images/cap03-img09.png" /></p>
+<p><img alt="Imagen 10" src="../images/cap03-img10.png" /></p>
+<p><img alt="Imagen 11" src="../images/cap03-img11.png" /></p>
+<p><img alt="Imagen 12" src="../images/cap03-img12.png" /></p>
+<p><img alt="Imagen 13" src="../images/cap03-img13.png" /></p>
+<p><img alt="Imagen 14" src="../images/cap03-img14.png" /></p>
+<p>XOS</p>
+<p>indicator_low_beam(ON)
+Límite de velocidad en la señal de límite de velocidad</p>
+<p>indicator_fog_lights(ON)
+Límite de velocidad del radar electrónico</p>
+<p>indicator_parking_lamp(ON)
+Sistema de alta tensión listo y vehículo en
+estado conducible</p>
+<p>indicator_auto_elow_beam(ON)
+Falla de la batería</p>
+<p>indicator_lane_departure_failure
+Límite de potencia de conducción</p>
+<p>indicator_charge_light(Connected)
+Falla del tren motriz</p>
+<p>indicator_timer_charge(ON)
+Sobrecalentamiento del motor y del controlador</p>
+<p>indicator_eps_warn
+Falla del motor y del controlador</p>
+<p><img alt="Imagen 15" src="../images/cap03-img15.png" /></p>
+<p><img alt="Imagen 16" src="../images/cap03-img16.png" /></p>
+<p><img alt="Imagen 17" src="../images/cap03-img17.png" /></p>
+<p><img alt="Imagen 18" src="../images/cap03-img18.png" /></p>
+<p><img alt="Imagen 19" src="../images/cap03-img19.png" /></p>
+<p><img alt="Imagen 20" src="../images/cap03-img20.png" /></p>
+<p><img alt="Imagen 21" src="../images/cap03-img21.png" /></p>
+<p><img alt="Imagen 22" src="../images/cap03-img22.png" /></p>
+<p><img alt="Imagen 23" src="../images/cap03-img23.png" /></p>
+<p><img alt="Imagen 24" src="../images/cap03-img24.png" /></p>
+<p><img alt="Imagen 25" src="../images/cap03-img25.png" /></p>
+<p><img alt="Imagen 26" src="../images/cap03-img26.png" /></p>
+<p><img alt="Imagen 27" src="../images/cap03-img27.png" /></p>
+<p><img alt="Imagen 28" src="../images/cap03-img28.png" /></p>
+<p><img alt="Imagen 29" src="../images/cap03-img29.png" /></p>
+<p><img alt="Imagen 30" src="../images/cap03-img30.png" /></p>
+<p>XOS</p>
+<p>Encendido fijo: Función de estacionamiento activada
+Parpadeando: Estado incorrecto de la pinza de freno
+Temperatura de la batería de tracción demasiado baja</p>
+<p>Encendido fijo: falla del freno de estacionamiento
+Parpadeando: Sistema de estacionamiento en
+modo de mantenimiento</p>
+<p>Temperatura de la batería de tracción demasiado alta</p>
+<p>AUTO HOLD activado
+SOC de la batería de tracción demasiado bajo</p>
+<p>Falla de AUTO HOLD
+Falla de la batería de tracción</p>
+<p>Falla del sistema de frenos
+Batería de tracción desconectada</p>
+<p>Parpadeando: Programa Electrónico de Estabilidad
+activado
+Encendido fijo: Falla del Programa Electrónico de
+Estabilidad</p>
+<p>Falla de la Advertencia de Colisión Frontal</p>
+<p>Programa Electrónico de Estabilidad OFF
+Advertencia de Colisión Frontal OFF</p>
+<p><img alt="Imagen 31" src="../images/cap03-img31.png" /></p>
+<p><img alt="Imagen 32" src="../images/cap03-img32.png" /></p>
+<p><img alt="Imagen 33" src="../images/cap03-img33.png" /></p>
+<p><img alt="Imagen 34" src="../images/cap03-img34.png" /></p>
+<p><img alt="Imagen 35" src="../images/cap03-img35.png" /></p>
+<p><img alt="Imagen 36" src="../images/cap03-img36.png" /></p>
+<p><img alt="Imagen 37" src="../images/cap03-img37.png" /></p>
+<p><img alt="Imagen 38" src="../images/cap03-img38.png" /></p>
+<p><img alt="Imagen 39" src="../images/cap03-img39.png" /></p>
+<p><img alt="Imagen 40" src="../images/cap03-img40.png" /></p>
+<p><img alt="Imagen 41" src="../images/cap03-img41.png" /></p>
+<p><img alt="Imagen 42" src="../images/cap03-img42.png" /></p>
+<p><img alt="Imagen 43" src="../images/cap03-img43.png" /></p>
+<p><img alt="Imagen 44" src="../images/cap03-img44.png" /></p>
+<p>XOS</p>
+<p>Hay demasiados indicadores encendidos al
+mismo tiempo, y todas las posiciones de visualización
+de indicadores están ocupadas.</p>
+<p>Falla del Sistema Antibloqueo de Frenos</p>
+<p>Degradación del rendimiento de frenado
+Falla del sistema de asistencia al conductor</p>
+<p>HDC activado
+Presión de neumáticos anormal o falla del Sistema de
+Monitoreo de Presión de Neumáticos</p>
+<p>Falla de HDC
+Alguna puerta, el capó delantero o el baúl
+sin cerrar</p>
+<p>Sin señal de límite de velocidad
+Control de Centrado de Carril activado</p>
+<p>Velocidad máxima límite de ACC/LCC, y
+alguna función activada</p>
+<p>El Control de Centrado de Carril puede ser
+activado</p>
+<p>Velocidad máxima límite de ACC/LCC, y
+ambas no activadas
+Asistente Inteligente de Estacionamiento activado</p>
+<p><img alt="Imagen 45" src="../images/cap03-img45.png" /></p>
+<p><img alt="Imagen 46" src="../images/cap03-img46.png" /></p>
+<p><img alt="Imagen 47" src="../images/cap03-img47.png" /></p>
+<p><img alt="Imagen 48" src="../images/cap03-img48.png" /></p>
+<p><img alt="Imagen 49" src="../images/cap03-img49.png" /></p>
+<p><img alt="Imagen 50" src="../images/cap03-img50.png" /></p>
+<p><img alt="Imagen 51" src="../images/cap03-img51.png" /></p>
+<p><img alt="Imagen 52" src="../images/cap03-img52.png" /></p>
+<p><img alt="Imagen 53" src="../images/cap03-img53.png" /></p>
+<p><img alt="Imagen 54" src="../images/cap03-img54.png" /></p>
+<p><img alt="Imagen 55" src="../images/cap03-img55.png" /></p>
+<p><img alt="Imagen 56" src="../images/cap03-img56.png" /></p>
+<p><img alt="Imagen 57" src="../images/cap03-img57.png" /></p>
+<p><img alt="Imagen 58" src="../images/cap03-img58.png" /></p>
+<p>XOS</p>
+<p>Lámpara indicadora de falla de LCC
+El Asistente Inteligente de Estacionamiento puede ser
+activado</p>
+<p>Indicador de función de remolque no
+activada*
+Control de Crucero Adaptativo activado</p>
+<p>Lámpara indicadora de falla de remolque*
+El Control de Crucero Adaptativo puede ser
+activado</p>
+<p>Indicador de función de remolque normal*
+Control de Crucero Adaptativo no disponible</p>
+<p>Activación del Sistema de Asistencia de Velocidad
+Excede el límite de velocidad de la señal de
+límite de velocidad</p>
+<p>Piloto Guiado de Navegación Inteligente no
+disponible
+Asistente Inteligente de Estacionamiento no disponible</p>
+<p>Control de Centrado de Carril no disponible
+Indicador de nivel bajo de líquido lavaparabrisas</p>
+<p><img alt="Imagen 59" src="../images/cap03-img59.png" /></p>
+<p><img alt="Imagen 60" src="../images/cap03-img60.png" /></p>
+<p><img alt="Imagen 61" src="../images/cap03-img61.png" /></p>
+<p><img alt="Imagen 62" src="../images/cap03-img62.png" /></p>
+<p><img alt="Imagen 63" src="../images/cap03-img63.png" /></p>
+<p><img alt="Imagen 64" src="../images/cap03-img64.png" /></p>
+<p><img alt="Imagen 65" src="../images/cap03-img65.png" /></p>
+<p><img alt="Imagen 66" src="../images/cap03-img66.png" /></p>
+<p><img alt="Imagen 67" src="../images/cap03-img67.png" /></p>
+<p><img alt="Imagen 68" src="../images/cap03-img68.png" /></p>
+<p><img alt="Imagen 69" src="../images/cap03-img69.png" /></p>
+<p><img alt="Imagen 70" src="../images/cap03-img70.png" /></p>
+<p><img alt="Imagen 71" src="../images/cap03-img71.png" /></p>
+<p><img alt="Imagen 72" src="../images/cap03-img72.png" /></p>
+<p>XOS</p>
+<p>Pantalla Central de Información (CID)</p>
+<p>Visualización de páginas
+La CID muestra de forma predeterminada un estado de pantalla dividida, con la interfaz de navegación del mapa a la izquierda y la
+interfaz de conducción inteligente global a la derecha.</p>
+<p><img alt="Imagen 73" src="../images/cap03-img73.png" /></p>
+<p>XOS</p>
+<p>1.
+Cuenta y hábitos Ver página 54</p>
+<ol>
+<li>
+<p>Centro de aplicaciones</p>
+</li>
+<li>
+<p>Imagen panorámica 360° AVM Ver página 73</p>
+</li>
+</ol>
+<p>• Haga clic en Iniciar sesión para mostrar el avatar de su cuenta.</p>
+<p>• Configure los hábitos de uso del vehículo.</p>
+<ol>
+<li>
+<p>Aplicación de música Ver página 57</p>
+</li>
+<li>
+<p>Interruptor de desactivación del airbag del acompañante</p>
+</li>
+<li>
+<p>Grabadora de conducción*</p>
+</li>
+<li>
+<p>Configuración</p>
+</li>
+</ol>
+<p>• Acceso a la configuración del control del vehículo.</p>
+<p>• Muestra el estado actual del video de conducción Ver
+página 83</p>
+<ol>
+<li>
+<p>Página de inicio</p>
+</li>
+<li>
+<p>Bluetooth</p>
+</li>
+<li>
+<p>Componente de música Ver página 57</p>
+</li>
+</ol>
+<p>• Haga clic para volver al escritorio.</p>
+<ol>
+<li>
+<p>Red</p>
+</li>
+<li>
+<p>Batería de tracción</p>
+</li>
+</ol>
+<p>• Muestra la carátula del medio que se está reproduciendo,
+el nombre del medio y la fuente de reproducción.</p>
+<p>• Muestra la autonomía actual y la
+carga restante de la batería.</p>
+<p>• Haga clic para pausar o reanudar la reproducción de música.</p>
+<ol>
+<li>Hora</li>
+</ol>
+<p>• Deslice hacia la izquierda o la derecha para ir a la canción anterior o
+siguiente.</p>
+<ol>
+<li>
+<p>Componentes del aire acondicionado del acompañante</p>
+</li>
+<li>
+<p>Componentes del aire acondicionado del conductor Ver página 252</p>
+</li>
+</ol>
+<p>• Muestra el estado actual de temperatura y volumen de aire
+del aire acondicionado del lado del acompañante.</p>
+<p>• Muestra el estado actual de temperatura y volumen de aire
+del aire acondicionado del conductor principal.</p>
+<p>• Haga clic para ajustar el aire acondicionado</p>
+<ol>
+<li>Ajuste del volumen</li>
+</ol>
+<p>• Haga clic para ajustar el aire acondicionado Ver página 252</p>
+<p>XOS</p>
+<p>Multitarea en pantalla dividida</p>
+<p>Deslice para volver a la página anterior de la
+ventana correspondiente.</p>
+<p>Arrastre la línea de pantalla dividida para alternar entre pantalla
+completa y pantallas divididas, y cambiar el tamaño de la ventana
+de la pantalla dividida. Cuando la pantalla dividida se
+cambia a pantalla completa, se memorizará la última aplicación abierta con
+pantalla dividida.</p>
+<p><img alt="Imagen 74" src="../images/cap03-img74.png" /></p>
+<p><img alt="Imagen 75" src="../images/cap03-img75.png" /></p>
+<p>XOS</p>
+<p>Toque la línea de pantalla dividida para fijar el modo de
+ventana pequeña. En la ventana pequeña, se pueden mostrar Asistente de Realidad
+Virtual en tiempo real, Mapa, Música y Navegador.</p>
+<p>En el modo de pantalla dividida, se pueden abrir diferentes aplicaciones
+en ventanas grandes, lo que permite, por ejemplo, que
+el conductor vea la interfaz de navegación y
+el acompañante delantero mire videos, escuche
+música y lea letras simultáneamente.</p>
+<p><img alt="Imagen 76" src="../images/cap03-img76.png" /></p>
+<p><img alt="Imagen 77" src="../images/cap03-img77.png" /></p>
+<p><img alt="Imagen 78" src="../images/cap03-img78.png" /></p>
+<p>XOS</p>
+<p>Interacción por gestos</p>
+<p>Deslizar con tres o cuatro dedos hacia la izquierda o la derecha permite
+cambiar entre diferentes ventanas de aplicaciones. Sin embargo,
+no funciona en modo de pantalla completa.</p>
+<p>Tres dedos deslizando hacia abajo permite salir de la
+aplicación abierta en la ventana grande en el modo de
+pantalla dividida y luego regresar a la página de inicio
+correspondiente.</p>
+<p>Consejos</p>
+<p>El área de la barra de tareas inferior no participa
+en los gestos. La barra de estado y la barra de tareas
+inferior no se ocultan durante el intercambio.</p>
+<p><img alt="Imagen 79" src="../images/cap03-img79.png" /></p>
+<p><img alt="Imagen 80" src="../images/cap03-img80.png" /></p>
+<p>XOS</p>
+<p>Personalizar la barra de tareas inferior</p>
+<ol>
+<li>Toca “Listo” o toca el espacio en blanco de la
+barra de tareas inferior para salir del estado
+personalizado.</li>
+</ol>
+<p>Centro de Aplicaciones</p>
+<p>1.
+Para personalizar la barra de tareas inferior, mantén
+presionada cualquier área del icono de la barra de
+tareas inferior.</p>
+<ol>
+<li>Puedes arrastrar el control de funciones y los
+iconos de componentes de acceso directo en
+Aplicaciones, Ventanas y Puertas, Asientos y A/A al
+espacio en blanco de la barra de tareas inferior.</li>
+</ol>
+<p>1.
+En la barra de tareas inferior, toca el icono 
+ para
+abrir el Centro de Aplicaciones, y toca cualquier
+espacio en blanco del Centro de Aplicaciones para
+salir rápidamente.</p>
+<ol>
+<li>
+<p>En el estado personalizado, toca 
+ en la esquina
+superior derecha o arrastra el icono al Centro de
+Aplicaciones y suéltalo para quitar el icono de la
+barra de tareas inferior.</p>
+</li>
+<li>
+<p>Toca el icono de la aplicación para abrirla. Las
+aplicaciones que se están descargando e instalando
+también tienen una visualización de estado
+correspondiente.</p>
+</li>
+<li>
+<p>Mantén presionado el icono de la aplicación o un
+espacio en blanco para entrar en el estado
+personalizado del Centro de Aplicaciones. En este</p>
+</li>
+</ol>
+<p><img alt="Imagen 81" src="../images/cap03-img81.png" /></p>
+<p><img alt="Imagen 82" src="../images/cap03-img82.png" /></p>
+<p><img alt="Imagen 83" src="../images/cap03-img83.png" /></p>
+<p><img alt="Imagen 84" src="../images/cap03-img84.png" /></p>
+<p>XOS</p>
+<p>momento, puedes arrastrar el icono para ordenarlo en la
+lista de aplicaciones.</p>
+<p>Configuración de pantalla</p>
+<p>Panel de accesos directos</p>
+<p>Ajuste de brillo</p>
+<p>Para las funciones de uso frecuente, puedes operar
+directamente desde el panel de accesos directos sin abrir
+la aplicación. Desliza hacia abajo desde la parte superior
+de la pantalla para desplegar el panel de accesos directos,
+y desliza hacia arriba para plegarlo. El panel de accesos
+directos se pliega cuando tocas un espacio en blanco o
+abres una nueva pantalla.</p>
+<p>En la CID, ve a la interfaz “ 
+ →Pantalla”, y
+puedes ajustar el brillo de la pantalla táctil y de la
+pantalla del tablero mediante los controles deslizantes.</p>
+<p><img alt="Imagen 85" src="../images/cap03-img85.png" /></p>
+<p><img alt="Imagen 86" src="../images/cap03-img86.png" /></p>
+<p><img alt="Imagen 87" src="../images/cap03-img87.png" /></p>
+<p>XOS</p>
+<p>Modo de visualización</p>
+<p>Modo de espera</p>
+<p>En la CID, ve a la interfaz “ 
+ →Pantalla”, y
+puedes cambiar entre Automático, Modo Día y
+Modo Noche. También puedes activar o desactivar
+el “Modo Día/Noche Adaptativo”. Después de activarlo,
+cambiará automáticamente al Modo Día/Noche
+según la luz ambiental.</p>
+<p>En la CID, ve a la interfaz “ 
+ →Pantalla”,
+y puedes entrar en el “Modo de espera”. En el
+“Modo de espera”, los faros, la pantalla táctil
+y el tablero se apagarán.</p>
+<p><img alt="Imagen 88" src="../images/cap03-img88.png" /></p>
+<p><img alt="Imagen 89" src="../images/cap03-img89.png" /></p>
+<p><img alt="Imagen 90" src="../images/cap03-img90.png" /></p>
+<p>XOS</p>
+<p>Asistente de voz</p>
+<p>Modo de activación</p>
+<p>Introducción</p>
+<p>Xpeng puede activarse de las siguientes maneras:</p>
+<p>• Botón de voz en el volante</p>
+<p>• “Hey XPENG”</p>
+<p>En la CID, ve a la interfaz “ 
+ →Asistente de voz”,
+y puedes activar o desactivar “Hey XPENG”. Después
+de habilitar la función, agrega “Hey XPENG” antes o
+después de un comando para iniciar el servicio Xpeng
+en cualquier momento. Por ejemplo:</p>
+<p>• Hey XPENG, enciende el A/A.</p>
+<p>• Navega a casa, Hey XPENG.</p>
+<p>En la CID, andá a la interfaz “
+ →Asistente de Voz”
+y podés activar “Asistente de Voz”.
+Esta función admite la activación de funciones como
+“Hey XPENG y Respuesta Instantánea”.</p>
+<p>• ¿Cuánto tiempo tardaré en llegar al
+destino? Hey XPENG.</p>
+<p>• Hey XPENG, reproducí una canción.</p>
+<p>Solo después de activar el “Asistente de Voz” se pueden
+habilitar otras funciones del Asistente de Voz.</p>
+<p>Selección de Idioma del Asistente de Voz</p>
+<p>En la CID, andá a la interfaz “
+ →Asistente de Voz”
+y tocá “Selección de Idioma del Asistente de Voz”.
+Podés seleccionar el idioma del Asistente de Voz,</p>
+<p><img alt="Imagen 91" src="../images/cap03-img91.png" /></p>
+<p><img alt="Imagen 92" src="../images/cap03-img92.png" /></p>
+<p>XOS</p>
+<p>descargar e instalar un nuevo paquete de idioma,
+y cambiar a un nuevo idioma.</p>
+<p>• Más largo: Después de seleccionar la opción, Xpeng
+puede seguir escuchando durante un período de tiempo después de
+ejecutar la tarea anterior. En este momento,
+Xpeng puede emitir nuevos comandos
+directamente sin necesidad de despertarlo
+repetidamente.</p>
+<p>Modo de diálogo</p>
+<p>Zonas de Activación</p>
+<p>El Asistente de Voz admite el reconocimiento de diálogo de voz
+de cuatro zonas en dos filas del
+vehículo, y cada pasajero del vehículo
+puede despertar a Xpeng en cualquier momento para mantener un
+diálogo. Mediante la localización de la fuente de sonido
+y la capacidad de separación de voz de las seis
+zonas de reconocimiento de voz, Xpeng puede distinguir
+con precisión qué posición da los comandos y
+proporciona los servicios correspondientes. El diálogo
+entre los pasajeros no interfiere entre sí.</p>
+<p>En la CID, andá a la interfaz “
+ →Asistente de Voz”
+y podés seleccionar "Desactivado"、"Más corto" o
+"Más largo".</p>
+<p>• Desactivado: El modo de diálogo se desactivará después
+de seleccionar la opción.</p>
+<p>• Más corto: Después de seleccionar la opción, Xpeng solo
+puede ejecutar un comando por
+cada diálogo.</p>
+<p><img alt="Imagen 93" src="../images/cap03-img93.png" /></p>
+<p><img alt="Imagen 94" src="../images/cap03-img94.png" /></p>
+<p>XOS</p>
+<p>brindarte servicios de voz básicos, incluyendo
+entre otras las siguientes funciones:</p>
+<p>• Control por voz del A/A</p>
+<p>• Control por voz de los asientos</p>
+<p>• Control por voz de puertas y ventanillas</p>
+<p>• Control por voz de la iluminación</p>
+<p>• Control por voz de la navegación</p>
+<p>Unirse al Programa de Mejora de la Experiencia
+del Usuario del Asistente XPENG</p>
+<p>En la CID, andá a la interfaz “
+ →Asistente de Voz”
+y podés cerrar la zona de reconocimiento
+de voz. Después de cerrarla, el sistema ya no
+aceptará comandos de voz de esta zona de
+reconocimiento de voz.</p>
+<p>Para hacer a Xpeng cada vez más inteligente, te
+invitamos sinceramente a unirte al “Programa de Mejora
+de la Experiencia del Usuario del Asistente XPENG”.</p>
+<p>Diálogo sin Internet</p>
+<p>En entornos con mala conexión de red como
+estacionamientos subterráneos, autopistas y túneles,
+algunos servicios de conversación que dependen en gran medida
+de Internet (como reproducir música) están
+temporalmente no disponibles. Sin embargo, Xpeng todavía puede</p>
+<p><img alt="Imagen 95" src="../images/cap03-img95.png" /></p>
+<p><img alt="Imagen 96" src="../images/cap03-img96.png" /></p>
+<p>XOS</p>
+<p>Antes de habilitar esta función, necesitás
+revisar y aceptar el Programa de Mejora de la
+Experiencia del Usuario del Asistente XPENG. Después de
+habilitar esta función, el sistema puede recopilar
+información de uso de voz para mejorar tu experiencia
+de interacción por voz.</p>
+<p>Control por voz</p>
+<p>Voice Control permite al conductor controlar las
+funciones del vehículo mientras conduce. Utilizá
+los comandos de voz para evitar distracciones y
+mejorar la seguridad y la comodidad al conducir.</p>
+<p>En la CID, andá a la interfaz “ 
+ →General→Seguridad y
+Privacidad”, donde podés activar o desactivar
+“Unirse al Plan de Mejora de la Experiencia del Usuario para el
+Asistente de Voz”.</p>
+<p>Comandos de control por voz comunes (inglés)</p>
+<p>Categoría
+Función
+Ejemplos de comandos de control
+por voz</p>
+<p><img alt="Imagen 97" src="../images/cap03-img97.png" /></p>
+<p><img alt="Imagen 98" src="../images/cap03-img98.png" /></p>
+<p>XOS</p>
+<p>Sube más el asiento del conductor</p>
+<p>Mueve el asiento del conductor hacia
+adelante</p>
+<p>Asientos</p>
+<p>Activa el masaje del asiento del conductor</p>
+<p>Cambia el modo de masaje del asiento
+de la segunda fila</p>
+<p>Activa el masaje delantero en intensidad baja</p>
+<p>Enciende el aire acondicionado</p>
+<p>Sube la temperatura del aire
+acondicionado del conductor</p>
+<p>Activa el aire acondicionado automático del conductor</p>
+<p>Enciende el purificador</p>
+<p>Activa la recirculación</p>
+<p>Vehículo</p>
+<p>Activa la refrigeración máxima</p>
+<p>Activa la calefacción máxima</p>
+<p>Activa el modo de ventilación</p>
+<p>Activa la ventilación del asiento</p>
+<p>XOS</p>
+<p>Hacer una llamada</p>
+<p>Teléfono
+/</p>
+<p>Llama a Anna</p>
+<p>Devuelve la llamada</p>
+<p>Navegar a</p>
+<p>Navegación
+/</p>
+<p>Salir de la navegación</p>
+<p>Llévame a casa</p>
+<p>Siguiente canción</p>
+<p>Multimedia
+/</p>
+<p>Pausar</p>
+<p>Apaga la música</p>
+<p>Reproduce música</p>
+<p>XOS</p>
+<p>Sube el brillo de la pantalla principal
+un 10%</p>
+<p>Pantalla</p>
+<p>Cambia al modo diurno</p>
+<p>Aumenta el brillo del tablero</p>
+<p>Otros</p>
+<p>Activa el Bluetooth del conductor</p>
+<p>Dispositivo</p>
+<p>Enciende el Wi-Fi</p>
+<p>Enciende la cámara</p>
+<p>Gängige Sprachsteuerungsbefehle (Deutsch)</p>
+<p>Categoría
+Función
+Ejemplos de comandos de control
+por voz</p>
+<p>XOS</p>
+<p>Verstelle den rechten Rücksitz
+nach vorne</p>
+<p>Neige die Rückenlehne des
+Fahrers nach vorne</p>
+<p>Sitz</p>
+<p>Aktiviere die Sitzmassage des
+Fahrers</p>
+<p>Aktiviere wave Massage des
+Vordersitzes</p>
+<p>Stelle die Massageintensität auf
+Stufe hoch ein</p>
+<p>Schalte die Klimaanlage des
+ganzen Fahrzeugs aus</p>
+<p>Senke die Temperatur auf der
+Beifahrerseite</p>
+<p>Erhöhe den Luftstrom</p>
+<p>Stelle Klimaanlage auf
+Automatikmodus ein</p>
+<p>Fahrzeug</p>
+<p>Klimaanlage</p>
+<p>Schalte die Umluft aus</p>
+<p>Reinige die Luft</p>
+<p>XOS</p>
+<p>Mache einen Anruf</p>
+<p>Telefon
+/</p>
+<p>Rufe Anna</p>
+<p>Rufe 101</p>
+<p>Rufe zurück</p>
+<p>Navigation
+/</p>
+<p>Wo ist die Seite für Klimaanlage</p>
+<p>Schalte Navigation aus</p>
+<p>Bringe mich nach Hause</p>
+<p>Vorheriges Lied</p>
+<p>Media
+/</p>
+<p>Pausiere</p>
+<p>Spiele Musik</p>
+<p>Schalte Sotify ein</p>
+<p>XOS</p>
+<p>Erhöhe die Bildschirmhelligkeit
+um 20%</p>
+<p>Bildschirm</p>
+<p>Erhöhe die Heiligkeit des
+Armaturenbrettes</p>
+<p>Sonstiges</p>
+<p>Erhöhe die Bildschirmhelligkeit
+des Armaturenbretts</p>
+<p>Schalte Bluetooth ein</p>
+<p>Geräteverbindung</p>
+<p>Schalte 360° Kamera aus</p>
+<p>Commandes de contrôle vocal courantes
+(français)</p>
+<p>Categoría
+Función
+Ejemplos de comandos de control
+por voz</p>
+<p>XOS</p>
+<p>Monte le siège passager</p>
+<p>Incline le dossier du siège
+conducteur vers l'avant</p>
+<p>Active le massage, s'il te plaît</p>
+<p>Sièges</p>
+<p>Donne-moi un autre type de
+massage</p>
+<p>Active le massage du siège
+conducteur à faible intensité</p>
+<p>Allume toutes les climatisations</p>
+<p>Augmente la température de la
+climatisation</p>
+<p>Accrois le volume d'air</p>
+<p>Active la climatisation
+automatique du conducteur</p>
+<p>Climatisation</p>
+<p>Ferme le purificateur d'air</p>
+<p>Véhicule</p>
+<p>Active la recirculation de l'air</p>
+<p>Arrête le dégivrage</p>
+<p>Refroidissement max</p>
+<p>XOS</p>
+<p>Passe un appel téléphonique</p>
+<p>Téléphone
+/</p>
+<p>Appelle le service client</p>
+<p>Appeler 123</p>
+<p>Recompose</p>
+<p>Navigation
+/</p>
+<p>Termine la navigation</p>
+<p>Navigue vers</p>
+<p>Rentrer à la maison</p>
+<p>La chanson précédente</p>
+<p>Média
+/</p>
+<p>Arrête la diffusion de la radio</p>
+<p>Joue de la musique</p>
+<p>XOS</p>
+<p>Augmente la luminosité de
+l'écran</p>
+<p>Écrans</p>
+<p>Mets la luminosité du tableau de
+bord en mode automatique</p>
+<p>Tableau de bord plus lumineux</p>
+<p>Autres</p>
+<p>Active le Bluetooth</p>
+<p>Appareils</p>
+<p>Ouvre la caméra</p>
+<p>Active le WIFI</p>
+<p>คำสั่งควบคุมดวยเสียงทั่วไป (ภาษาไทย)</p>
+<p>หมวดหมู
+การทำงาน
+ตัวอยางคำสั่งควบคุมดวยเสียง</p>
+<p>XOS</p>
+<p>ปรับเบาะนั่งไปขางหลังหนอย</p>
+<p>ปรับพนักพิงหลังผูโดยสารดานหนา
+ไปขางหลังสุด</p>
+<p>เบาะ</p>
+<p>เปดฟงกชันการนวดเบาะนั่งของคน
+ขับ</p>
+<p>ปรับแรงนวดของเบาะคนขับใหสูงขึ้น
+นิดหนอย</p>
+<p>ปดเครื่องปรับอากาศทั้งคันรถ</p>
+<p>ปรับอุณหภูมิของที่นั่งคนขับสูงขึ้น
+เล็กนอย</p>
+<p>เครื่องปรับอากาศ</p>
+<p>เพิ่มความเร็วลมของเครื่องปรับ
+อากาศในที่นั่งดานหลัง</p>
+<p>เปดการไลฝากระจกหลัง</p>
+<p>รถยนต</p>
+<p>ปดการอุนเบาะของผูโดยสารดาน
+หนา</p>
+<p>เปดไฟสรางบรรยากาศ</p>
+<p>ปดไฟตัดหมอก</p>
+<p>ตั้งไฟสรางบรรยากาศเปนสีแดง</p>
+<p>XOS</p>
+<p>โทรศัพท</p>
+<p>โทรศัพท
+/</p>
+<p>โทรหาผูติดตอ</p>
+<p>โทร 123</p>
+<p>โทรหมายเลขเมื่อกี้</p>
+<p>การนำทาง
+/</p>
+<p>นำทางไปที่</p>
+<p>ไปที่บาน</p>
+<p>นำทางไปบริษัท</p>
+<p>รายการวิทยุกอนหนา</p>
+<p>สื่อ
+/</p>
+<p>เพลงถัดไป</p>
+<p>เลนเพลง</p>
+<p>หยุดเลน</p>
+<p>XOS</p>
+<p>เปดหนาจอทั้งหมดในรถ</p>
+<p>หนาจอ</p>
+<p>ปรับหนาจอใหสวางขึ้น</p>
+<p>เปดความสวางอัตโนมัติของหนาจอ
+ดานหนา</p>
+<p>อื่น</p>
+<p>เปดบลูทูธ</p>
+<p>อุปกรณ</p>
+<p>เปดกลอง</p>
+<p>เปดกลองหนา</p>
+<p>X-Combo</p>
+<p>Introducción</p>
+<p>Para garantizar la experiencia funcional, se
+recomienda actualizar la aplicación Xpeng
+Motors a la versión 2.34.0 o superior. El
+sistema del vehículo debe actualizarse a la
+versión 5.4.5 o superior.</p>
+<p>precaución</p>
+<p>La función X-Combo permite personalizar de
+forma individual las funciones del habitáculo
+según tus hábitos de conducción. Por ejemplo,
+a la hora del almuerzo en días laborables,
+cuando tu vehículo está en la oficina, puedes
+preactivar el aire acondicionado remoto para
+ajustar la temperatura interior y, al entrar en el
+vehículo, la posición del asiento se ajusta
+automáticamente al modo siesta.</p>
+<p>XOS</p>
+<p>App del vehículo</p>
+<p>para incluir el combo en tu colección. En el
+cuadro de búsqueda de la parte superior
+derecha, puedes buscar tarjetas de Combo
+mediante códigos de Combo y palabras clave.</p>
+<p>Acceso a la función</p>
+<p>Mis Combos</p>
+<p>En la CID, inicia sesión en tu cuenta y podrás
+activar, desactivar, eliminar, restaurar o
+ejecutar combos.</p>
+<p>Edición de Combos</p>
+<p>El X-Combo admite la edición personalizada de
+tarjetas en Mis Combos.</p>
+<p>1.
+En la CID, inicia sesión en tu cuenta y, en la
+interfaz Mis Combos, toca la Tarjeta de Combo
+para acceder a los detalles de la tarjeta.</p>
+<p>En la CID, toca « 
+ » y luego toca «X-Combo» en
+el Centro de Apps para entrar en la interfaz X-Combo.</p>
+<ol>
+<li>Toca el icono 
+ y, en el menú desplegable,
+selecciona «Modificar Combo».</li>
+</ol>
+<p>Seleccionar Combo</p>
+<ol>
+<li>Usa la App XPENG para buscar un código de
+Combo o escanear el código QR para editarlo.</li>
+</ol>
+<p>El X-Combo ofrece una selección de combos de
+conducción innovadores y prácticos. Puedes
+seleccionar combos en la interfaz «Tienda
+recomendada». Toca «Tarjeta de Combo» para
+ver sus detalles. En la CID central, inicia sesión
+en tu cuenta y toca «Agregar»</p>
+<p>Consejos</p>
+<p>Después de modificar una escena, solo se
+puede actualizar de forma sincronizada una vez
+que tanto el IVI</p>
+<p><img alt="Imagen 99" src="../images/cap03-img99.png" /></p>
+<p><img alt="Imagen 100" src="../images/cap03-img100.png" /></p>
+<p><img alt="Imagen 101" src="../images/cap03-img101.png" /></p>
+<p>XOS</p>
+<p>como el dispositivo móvil estén conectados a la
+red.</p>
+<p>CID, seleccioná el combo correspondiente y tocá
+“Restaurar” para detener el combo y volver al
+estado original.</p>
+<p>Vista en ejecución</p>
+<p>• Una vez completado el combo, también podés
+ir a “ 
+ →X-Combo→Mis Combos” en la pantalla
+de control central, seleccionar el combo
+que quieras restaurar y tocar “Restaurar” para detener
+el combo y volver al estado original.</p>
+<p>Los combos habilitados realizarán automáticamente
+una o más funciones continuas cuando el
+vehículo cumpla las condiciones de activación especificadas.
+Podés tocar “X-Combo en ejecución” en la barra de estado
+en la parte superior del CID para ver, detener o restaurar
+el combo en ejecución.</p>
+<p>Consejos</p>
+<p>Restauración con un botón</p>
+<p>Las capacidades atómicas actualmente compatibles son
+el control de climatización, las posiciones de los asientos, las pantallas,
+y se irán agregando más capacidades atómicas
+recuperables en versiones posteriores.</p>
+<p>Podés restaurar el estado previo al escenario durante
+o después del funcionamiento del escenario inteligente
+mediante los siguientes métodos:</p>
+<p>• Mientras el combo está activo, podés tocar “X-
+Combo en ejecución” en la esquina superior izquierda
+del CID. En la tarjeta en vivo expandida, seleccioná el
+combo que quieras restaurar y tocá “Restaurar”
+para detener el combo y volver al estado
+original.</p>
+<p>Aplicación móvil</p>
+<p>Acceso a la función</p>
+<p>En la App de XPENG, andá a la interfaz “XPENG→X-Combo”,
+y podés personalizar tus propios
+combos.</p>
+<p>• Mientras el combo está en ejecución, también podés
+ir a “ 
+ →X-Combo→Mis Combos” en la</p>
+<p><img alt="Imagen 102" src="../images/cap03-img102.png" /></p>
+<p>XOS</p>
+<p>Seleccionar Combo</p>
+<p>admite varios activadores de automatización, incluidos
+comandos de voz, hora, entorno, estado del
+vehículo y más. Los usuarios pueden configurar una amplia
+variedad de acciones de ejecución, como ajustes del
+modo de conducción y configuraciones del aire acondicionado.</p>
+<p>X-Combo ofrece una selección de combos de conducción
+innovadores y prácticos. Podés seleccionar
+combos en la interfaz “Tienda Recomendada”.
+Tocá “Tarjeta de Combo” para ver sus detalles. Tocá “+Agregar”
+para incluir el combo en Mis Combos. También podés
+ajustar el combo usando el botón “Personalizar”
+según tus hábitos de conducción. En el
+cuadro de búsqueda en la parte superior derecha, podés buscar
+tarjetas de Combo usando códigos de Combo y palabras clave.</p>
+<p>A través de la opción “Avanzado”, podés configurar
+combos de aplicación avanzados adicionales, como
+detección continua de múltiples condiciones, ejecución sincrónica
+de múltiples tareas y ejecución de instrucciones con retardo.</p>
+<p>Consejos</p>
+<p>precaución</p>
+<p>Después de modificar un escenario, solo puede
+actualizarse de forma sincronizada una vez que tanto el IVI
+como el dispositivo móvil estén conectados a la
+red.</p>
+<p>• Asegurá la seguridad de los vehículos y las personas
+cuando los escenarios estén activos.</p>
+<p>• En la interfaz “Crear un Escenario”, se
+recomienda seleccionar ““””. Este modo
+evalúa el nivel de seguridad del escenario según
+la condición del vehículo antes de la ejecución.
+Si se detecta un riesgo para la seguridad de conducción, como
+ajustar el modo de conducción en la posición D,
+X-peng preguntará a través de la tarjeta de recomendación
+inteligente de la pantalla de control central
+si se debe continuar. Si se selecciona ““””,</p>
+<p>Personalización individual</p>
+<p>X-Combo admite la personalización individual
+de las funciones del habitáculo. Tocá “X-Combo→+→Crear un
+combo” para comenzar la personalización personal.</p>
+<p>El sistema X-Combo</p>
+<p>El sistema ofrece dos métodos de activación para
+la ejecución de combos: "En el vehículo" y "Remoto".</p>
+<p>XOS</p>
+<p>el escenario se ejecutará de inmediato cuando
+se cumplan las condiciones de activación. Tené
+presente los riesgos de seguridad asociados.</p>
+<p>Autorización→Agregar", ingresá el número de
+teléfono de la persona que querés autorizar y
+configurá el período de validez según lo necesites.
+De esta manera, podés compartir los derechos de
+acceso del vehículo con tu familia y amigos. Tras
+iniciar sesión en la App XPENG, el usuario autorizado
+puede crear una llave Bluetooth o usar las funciones
+de control remoto del vehículo. Se puede autorizar
+a un máximo de 5 familiares y amigos para usar el
+vehículo.</p>
+<p>Cuenta de Usuario</p>
+<p>Tipo de Cuenta</p>
+<p>Descargá la App XPENG e iniciá sesión con tu
+número de teléfono para completar el registro de
+la cuenta. Si deseás usar todas las funciones del
+vehículo (por ejemplo, la memoria de cuenta),
+completá la vinculación de la cuenta del vehículo.</p>
+<p>Cuenta del Propietario</p>
+<p>Podés abrir la App XPENG e ir a la interfaz
+"Autorización del Vehículo" para ver o gestionar
+los usuarios autorizados. Después de encontrar
+al usuario que querés desautorizar, tocá
+"Desautorizar". Entonces se cancela la autorización
+del usuario.</p>
+<p>Después de comprar el vehículo, durante el
+proceso de entrega, la primera cuenta vinculada
+y activada será la cuenta del propietario. Un
+vehículo solo puede vincularse a una cuenta de
+propietario, pero una cuenta puede vincular
+múltiples vehículos.</p>
+<p>Modo Visitante</p>
+<p>Modo visitante: Este es el modo cuando la cuenta
+del vehículo no tiene la sesión iniciada. En este
+modo, solo se puede acceder a las funciones sin
+restricciones de permiso de cuenta (por ejemplo,
+A/A, calefacción de asientos y masaje de asientos*).</p>
+<p>Después de iniciar sesión en la App XPENG, como
+propietario del vehículo, podés tocar "XPENG→
+Configuración→Vehículo</p>
+<p>Cuentas de Familia y Amigos</p>
+<p>XOS</p>
+<p>Cuenta de Inicio de Sesión</p>
+<p>Tocá "Gestionar Hábitos" y podés eliminar o
+renombrar cualquier preferencia de conducción
+guardada.</p>
+<p>Cuando varias personas comparten un vehículo,
+iniciar sesión en la cuenta correspondiente
+ajustará automáticamente el asiento, la posición del
+espejo lateral y otras configuraciones para el usuario.
+Podés iniciar sesión en tu cuenta mediante
+cualquiera de los siguientes métodos:</p>
+<p>Navegación a Bordo</p>
+<p>Navegación Sin Interrupciones</p>
+<p>• Iniciá sesión en la App XPENG en tu teléfono.
+Cuando desbloqueás el vehículo con una llave
+Bluetooth, la cuenta de usuario iniciará sesión
+automáticamente.</p>
+<p>Introducción</p>
+<p>Después de iniciar sesión y vincular con tu App
+móvil, la navegación sin interrupciones te permite
+enviar una dirección al vehículo desde tu teléfono
+móvil para iniciar la navegación de inmediato.</p>
+<p>• Tocá el avatar gris predeterminado (sin sesión
+iniciada) en la esquina superior izquierda de la
+pantalla de control central, y escaneá el código QR
+para iniciar sesión después de iniciar sesión en la
+App XPENG en tu teléfono.</p>
+<p>Operación</p>
+<p>Memoria de Cuenta</p>
+<p>Tomando la App XPENG como ejemplo, la navegación
+sin interrupciones se puede realizar mediante las
+siguientes operaciones:</p>
+<p>Una vez que inicies sesión en tu cuenta, podés
+guardar preferencias de conducción personales
+como las posiciones del asiento y del espejo lateral*.
+Cada cuenta puede almacenar hasta seis preferencias
+de conducción. Después de seleccionar tu foto de
+perfil en el CID, podés elegir rápidamente las
+preferencias de conducción que deseás activar para
+esta sesión.</p>
+<p>1.
+En la App móvil, cambiá a la interfaz “XPENG”
+y tocá “Buscar estaciones de carga y
+destinos” para entrar a la interfaz de
+Posicionamiento del Vehículo o Cuadro de
+Búsqueda. En esta interfaz, configurá el
+destino de navegación.</p>
+<p>XOS</p>
+<ol>
+<li>Tocá “Enviar al vehículo” para enviar la
+información del destino a la pantalla de control
+central del vehículo.</li>
+</ol>
+<p>tiempos de recarga y la duración. Tocá “Iniciar
+navegación” para comenzar el viaje.</p>
+<ol>
+<li>Una vez que el CID recibe la información de
+navegación enviada por el teléfono móvil,
+aparecerá una tarjeta de confirmación. Tocá
+“Aceptar” para lograr una navegación fluida.</li>
+</ol>
+<p>Consejos</p>
+<p>Si el SOC actual es suficiente para llegar
+al destino, no se agregarán estaciones de carga
+automáticamente.</p>
+<ol>
+<li>Durante la conducción, la distancia a la
+estación de carga y la hora estimada de
+llegada se actualizarán de forma dinámica.</li>
+</ol>
+<p>Para viajes de larga distancia, el sistema puede
+planificar automáticamente las rutas de
+conducción y carga según la preferencia de
+carga.</p>
+<p>Planificación de carga</p>
+<p>1.
+En la interfaz del mapa del CID, tocá
+“Configuración del mapa” para ajustar por
+separado los SOC mínimos para la llegada a la
+estación de carga y al destino en
+“Configuración de preferencia de ruta de
+carga”.</p>
+<ol>
+<li>En la interfaz de Planificación de ruta, tocá
+“Cargar” para entrar a la interfaz de
+Planificación inteligente de carga. El sistema
+planificará automáticamente las estaciones de
+carga a lo largo del camino, y mostrará
+información como la información de la estación
+de carga, la distancia del intervalo de
+conducción,</li>
+</ol>
+<p>XOS</p>
+<p>App de Música</p>
+<p>Radio</p>
+<p>Introducción</p>
+<p>Cambiá la fuente de audio a “Radio” para
+reproducir estaciones de radio locales.</p>
+<p>El vehículo admite radio FM local.</p>
+<p>Bluetooth</p>
+<p>Cambiá la fuente de audio a “Bluetooth” y
+tocá “Conectar Bluetooth” para conectar el
+Bluetooth del móvil. Luego podés escuchar
+canciones de tu teléfono móvil en el vehículo.</p>
+<p>Proyección por cable</p>
+<p>XPENG ofrece apps de música personalizadas,
+compatibles con fuentes de audio como Spotify,
+Radio y Bluetooth.</p>
+<p>Introducción</p>
+<p>Disfrutá de la funcionalidad de proyección por
+cable que te permite proyectar la pantalla desde
+dispositivos como consolas de videojuegos y
+computadoras (incluyendo Switch y MacBook) a la
+pantalla de control central IVI para una
+experiencia visual sin precedentes.</p>
+<p>En la barra de tareas inferior de la pantalla de
+control central, tocá “ 
+ ” para cambiar y
+reproducir la fuente de audio en la entrada de
+fuente de audio, en la esquina superior izquierda
+de la interfaz de música.</p>
+<p><img alt="Imagen 103" src="../images/cap03-img103.png" /></p>
+<p><img alt="Imagen 104" src="../images/cap03-img104.png" /></p>
+<p>XOS</p>
+<p>Operación</p>
+<p>HDMI, y el otro extremo conectado al puerto
+C del terminal IVI.</p>
+<ol>
+<li>
+<p>Una vez conectado correctamente, la imagen
+se mostrará en la pantalla.</p>
+</li>
+<li>
+<p>Proyección por cable:</p>
+</li>
+</ol>
+<p>• Deslizá hacia arriba o abajo en el lado
+izquierdo de la pantalla para ajustar el brillo
+de la pantalla.</p>
+<p>• Deslizá hacia arriba o abajo en el lado
+derecho de la pantalla para ajustar el volumen
+multimedia.</p>
+<p>• Se admite la función de activar el sonido.</p>
+<p>1.
+Tocá el “ 
+ ” del CID y tocá “Proyección por
+cable” en el centro de aplicaciones.</p>
+<ol>
+<li>
+<p>Tocá la pantalla, tocá “Salir” en la esquina
+superior izquierda para salir de la proyección
+por cable.</p>
+</li>
+<li>
+<p>Usá un cable HDMI y una tarjeta capturadora
+de video para conectar a la interfaz Type-C o
+Type-A de la fila delantera.</p>
+</li>
+</ol>
+<p>Consejos</p>
+<p>Para dispositivos como Sony PS y Xbox,
+que requieren un voltaje más alto, no se
+recomienda usar el puerto de transmisión del
+vehículo para la duplicación de pantalla.
+Después de estacionar, puedes usar el puerto
+de fuente de alimentación externa para
+alimentar el dispositivo y realizar la duplicación
+de pantalla.</p>
+<p>Consejos</p>
+<p>La Switch requiere un cable de carga PD
+adicional para alimentarse, con un extremo
+conectado a la tarjeta de captura de video o</p>
+<p><img alt="Imagen 105" src="../images/cap03-img105.png" /></p>
+<p><img alt="Imagen 106" src="../images/cap03-img106.png" /></p>
+<p>XOS</p>
+<p>Configuración de sonido</p>
+<ol>
+<li>Ajusta el volumen del tono de llamada.</li>
+</ol>
+<p>Introducción</p>
+<p>En la CID, ve a la interfaz “ 
+ →Sonidos”, y
+podrás configurar los sonidos del vehículo.</p>
+<p>Ajuste de volumen</p>
+<ol>
+<li>
+<p>Ajuste de volumen del volante: Toca para
+configurar el tipo de ajuste de volumen
+controlado por el botón de desplazamiento del
+volante.</p>
+</li>
+<li>
+<p>Modo silencio: Toca para silenciar el audio del
+multimedia delantero o trasero para reducir la
+interferencia entre las zonas de pasajeros
+delanteros y traseros durante la reproducción
+multimedia.</p>
+</li>
+</ol>
+<p>1.
+Ajusta el volumen del multimedia.</p>
+<ol>
+<li>
+<p>Ajusta el volumen de la voz.</p>
+</li>
+<li>
+<p>Ajuste de volumen según la velocidad: Toca
+para activar el ajuste automático de volumen
+en función de la velocidad del vehículo para
+contrarrestar el ruido, o elige</p>
+</li>
+<li>
+<p>Ajusta el volumen de la navegación.</p>
+</li>
+<li>
+<p>Ajusta el volumen de las llamadas.</p>
+</li>
+</ol>
+<p><img alt="Imagen 107" src="../images/cap03-img107.png" /></p>
+<p><img alt="Imagen 108" src="../images/cap03-img108.png" /></p>
+<p><img alt="Imagen 109" src="../images/cap03-img109.png" /></p>
+<p>XOS</p>
+<p>diferentes niveles de sensibilidad para
+adaptarse a tus hábitos de conducción.</p>
+<ol>
+<li>Sonido de aviso espacial: Una vez activado, los
+sonidos de aviso que indican señales
+espaciales, como las luces intermitentes y las
+alertas del radar, se originarán en sus
+respectivas ubicaciones de activación.</li>
+</ol>
+<p>Sonido de aviso</p>
+<p>Control inteligente</p>
+<p>1.
+Sonido de aviso de seguridad: Toca para
+configurar el sonido de aviso y los niveles de
+volumen para fallas del vehículo y advertencias
+de conducción.</p>
+<p>1.
+Reducción de volumen durante la
+navegación: Después de tocar para activar la
+función, el volumen del multimedia se reducirá
+automáticamente durante la reproducción de la
+navegación, tanto en modo compartido como
+privado.</p>
+<ol>
+<li>
+<p>Sonido de aviso del sistema: Una vez activado
+el sonido de aviso del sistema, el sonido de
+aviso de teclas, el sonido de aviso de cambio
+de marcha, el sonido de aviso del enchufe de
+carga externa y los efectos de sonido del modo
+de conducción se pueden activar o desactivar
+en “y más sonidos de aviso”.</p>
+</li>
+<li>
+<p>Reducción de volumen al abrir la puerta:
+Después de tocar para activar la función, el
+multimedia</p>
+</li>
+</ol>
+<p><img alt="Imagen 110" src="../images/cap03-img110.png" /></p>
+<p><img alt="Imagen 111" src="../images/cap03-img111.png" /></p>
+<p>XOS</p>
+<p>el volumen se reducirá automáticamente
+cuando se abra la puerta del conductor.</p>
+<p>En la interfaz de Dispositivo Bluetooth, puedes
+seleccionar el dispositivo móvil que se vinculará
+y completar la vinculación según las indicaciones
+de la interfaz.</p>
+<ol>
+<li>Reducción de volumen durante el retroceso:
+Después de tocar para activar la función y
+cambiar a la posición R, los volúmenes del
+multimedia, la navegación y la voz
+disminuirán automáticamente.</li>
+</ol>
+<p>Una vez que la vinculación sea exitosa, puedes
+confirmar en tu teléfono para sincronizar los
+datos de comunicación (como contactos y
+registros de llamadas) del dispositivo móvil al
+vehículo. Esto facilita responder y hacer
+llamadas, mejorando la experiencia de la función
+de teléfono integrada. La música de tu teléfono
+móvil también se puede reproducir a través del
+sistema de audio del vehículo.</p>
+<p>Conexión de dispositivos</p>
+<p>Introducción</p>
+<p>Puede conectar el dispositivo mediante el Bluetooth
+incorporado, el Wi-Fi o el punto de acceso incorporado.</p>
+<p>Red inalámbrica</p>
+<p>Funcionamiento</p>
+<p>En la CID, vaya a la interfaz “ 
+ →Conexión de Dispositivos” o toque la barra de estado en la parte superior de la pantalla de control central. Puede activar o desactivar la red inalámbrica.</p>
+<p>En la CID, vaya a la interfaz “ 
+ →Conexión de Dispositivos” o toque la barra de estado en la parte superior de la CID para activar o desactivar el Bluetooth. Después de activar la función “Permitir Detección”, otros dispositivos Bluetooth pueden detectar el Bluetooth de este vehículo.</p>
+<p>Bluetooth</p>
+<p>Después de activarla, el vehículo buscará automáticamente redes inalámbricas; puede seleccionar la red deseada e introducir la contraseña para establecer una conexión.</p>
+<p><img alt="Imagen 112" src="../images/cap03-img112.png" /></p>
+<p>XOS</p>
+<p>Consejos</p>
+<p>Consejos</p>
+<p>• Puede conectarse y utilizar los puntos de acceso personales compartidos por su teléfono a través de la red inalámbrica, y tener en cuenta el consumo de datos al utilizarlos.</p>
+<p>Se recomienda elegir primero la banda de 5 GHz; activar la banda de 2,4 GHz puede ser compatible con más dispositivos, pero el rendimiento de la red se verá reducido.</p>
+<p>• La intensidad de la señal de la red conectada actualmente puede verse desde el icono de red inalámbrica en la barra de estado; si la intensidad de la señal es baja, el vehículo puede ser lento para acceder a internet.</p>
+<p>Apple CarPlay</p>
+<p>Apple CarPlay permite a los usuarios acceder a los servicios de forma más segura y cómoda mientras conducen, asignando las funciones principales del iPhone a la CID.</p>
+<p>Punto de acceso incorporado</p>
+<p>1.
+Entre en el “Centro de APP” y haga clic en “Apple CarPlay”</p>
+<p>En la pantalla de control central, vaya a la interfaz “ 
+ →Conexión de Dispositivos”, y podrá activar o desactivar el punto de acceso incorporado y seleccionar el modo del punto de acceso 5 GHz o 2,4 GHz.</p>
+<p>Puede utilizar otros dispositivos móviles para buscar el punto de acceso incorporado del vehículo, e introducir la contraseña para conectarse.</p>
+<p><img alt="Imagen 113" src="../images/cap03-img113.png" /></p>
+<p><img alt="Imagen 114" src="../images/cap03-img114.png" /></p>
+<p>XOS</p>
+<p>Active Apple CarPlay según las indicaciones en la CID</p>
+<p>Actualización del Sistema</p>
+<p>a. Método 1: Empareje el Bluetooth de su teléfono en la página de la lista de Bluetooth.</p>
+<p>Introducción</p>
+<p>b. Método 2: Conecte su iPhone con un cable USB.</p>
+<p>El vehículo se puede actualizar de forma remota a través de la CID o la App móvil para obtener las funciones más recientes. Se recomienda que actualice el sistema lo antes posible después de recibir el aviso de la nueva versión.</p>
+<p><img alt="Imagen 115" src="../images/cap03-img115.png" /></p>
+<p><img alt="Imagen 116" src="../images/cap03-img116.png" /></p>
+<p>XOS</p>
+<p>Consejos</p>
+<p>para ver los detalles de la versión actual del sistema de infoentretenimiento.</p>
+<p>• Asegúrese de que el vehículo esté conectado a la red, ya que no recibirá actualizaciones hasta que el vehículo esté conectado a la red.</p>
+<p>Configuración de actualización</p>
+<p>• Si tiene alguna otra pregunta, póngase en contacto con el Centro de Servicio de XPENG.</p>
+<p>Toque “Configuración de Actualización” para configurar la función “Actualización Automática”. Cuando el vehículo detecte una nueva actualización más adelante, se actualizará automáticamente a las 3:00 a. m. sin confirmación manual.</p>
+<p>Versión del Sistema</p>
+<p>Consejos</p>
+<p>Se recomienda activar la función de actualización automática para mantener los sistemas del vehículo actualizados en todo momento.</p>
+<p>Método de Actualización</p>
+<p>When a new version is available, the system will
+push a notification to remind you that there are
+new versions for update. The “System Update”
+Cuando haya una nueva versión disponible, el
+sistema enviará una notificación para recordarte
+que hay nuevas versiones para actualizar. La
+barra “Actualización del sistema” mostrará el
+ícono “Nueva versión”. El ícono de Actualización
+del sistema aparecerá en la barra de estado en
+la parte superior del CID 
+.</p>
+<p>En el CID, ve a “ 
+ →General” y toca el número
+de versión de XOS “” en la parte superior de la
+interfaz</p>
+<p><img alt="Imagen 117" src="../images/cap03-img117.png" /></p>
+<p><img alt="Imagen 118" src="../images/cap03-img118.png" /></p>
+<p><img alt="Imagen 119" src="../images/cap03-img119.png" /></p>
+<p>XOS</p>
+<p>Toca el ícono Actualizar 
+ en la barra de estado
+del CID, o toca la barra “Actualización del
+sistema” para ver la descripción de actualización
+de una nueva versión.</p>
+<p>Después de programar la actualización, la página
+de actualización del sistema mostrará la
+información de la reserva. Antes de que comience
+la actualización, puedes tocar “Cancelar reserva”
+en cualquier momento y reservar otro horario de
+actualización del sistema.</p>
+<p>Cuando haya una nueva versión para actualizar,
+puedes actualizar el sistema de las siguientes
+tres maneras:</p>
+<p>Actualización remota mediante la aplicación móvil</p>
+<p>Actualizar ahora</p>
+<p>El vehículo admite actualizaciones remotas del
+sistema con la “XPENG App”. Cuando haya una
+nueva versión para actualizar, la App enviará una
+notificación con un mensaje, y la interfaz de
+control del vehículo mostrará la tarjeta de la
+nueva versión, o se mostrará el ícono “Nueva
+versión” en la esquina superior izquierda del
+control del vehículo. Toca el botón de la tarjeta
+o el ícono “Nueva versión” para entrar en la
+interfaz de actualización remota del sistema, y
+toca “Actualizar ahora” para completar la
+actualización.</p>
+<p>En la página de instrucciones de actualización de
+la nueva versión, toca “Actualizar ahora”. El
+sistema te advertirá que el “vehículo no puede
+usarse durante el proceso de actualización”, así
+que asegúrate de que el vehículo esté estacionado
+en una zona segura y reserva tiempo suficiente.</p>
+<p>Toca “Confirmar” para entrar inmediatamente en
+la preparación de la actualización. En esta etapa,
+puedes verificar las condiciones de la
+actualización. Después de la confirmación, el
+proceso no se puede suspender.</p>
+<p>Actualización programada</p>
+<p>Precauciones y limitaciones</p>
+<p>En la página de instrucciones de actualización de
+la nueva versión, toca “Reservar actualización”
+para establecer el período en el que no necesitas
+usar el vehículo. Toca “Confirmar”, y el sistema
+se actualizará cuando el vehículo esté bloqueado
+durante el período establecido.</p>
+<p>• Antes de actualizar, asegúrate de que el SoC
+del vehículo sea mayor al 10 %, la palanca de
+cambios esté en la posición P, y el vehículo esté
+estacionado en una zona segura.</p>
+<p><img alt="Imagen 120" src="../images/cap03-img120.png" /></p>
+<p>XOS</p>
+<p>• Una vez que comienza la actualización, no se
+puede detener y el vehículo no puede usarse
+durante la actualización. Deja tiempo suficiente
+para esperar a que se complete la actualización.</p>
+<p>• El vehículo no se puede cargar durante la
+actualización. Organiza de manera razonable el
+tiempo para la actualización y la carga.</p>
+<p>• Una falla en la actualización del sistema puede
+causar que algunas funciones funcionen de
+manera anormal. Si la actualización falla, no
+uses el vehículo. Toca “Reintentar” para volver a
+intentar la actualización. Si fallan varios
+intentos, comunícate con el Centro de Servicio
+XPENG o el Centro de Atención al Cliente.</p>
+<p>1.
+Cerradura de la puerta</p>
+<p>• Una vez actualizado, el sistema no se puede
+revertir a versiones anteriores.</p>
+<p>• Cuando la llave del teléfono no está activada,
+toque "Activar llave" para activar la llave del
+teléfono. Tras la activación exitosa, el estado
+original "Activar llave" cambia a "Bloqueo de
+puertas".</p>
+<p>Aplicación XPENG</p>
+<p>• Cuando el Bluetooth no está conectado, toque
+para seleccionar "Solo desbloquear" o
+"Desbloquear y arrancar".</p>
+<p>Introducción</p>
+<p>• Cuando el Bluetooth está conectado, toque
+"Desbloquear el vehículo" y luego engrane una
+marcha dentro de los 20 minutos para arrancar
+el vehículo.</p>
+<p>Después de descargar e iniciar sesión en la
+aplicación XPENG en su teléfono móvil, puede
+verificar de forma remota el estado del vehículo
+y controlar ciertas funciones del vehículo.</p>
+<p><img alt="Imagen 121" src="../images/cap03-img121.png" /></p>
+<p>XOS</p>
+<p>Consejos</p>
+<p>Bluetooth sin emparejar en la pantalla de
+control central.</p>
+<p>• No salga de la aplicación móvil después de
+desbloquear, y mantenga la aplicación móvil
+ejecutándose en segundo plano; de lo
+contrario, podría ser imposible engranar
+una marcha.</p>
+<p>• Normalmente, el rango de conexión Bluetooth
+en un campo abierto es de unos 20 metros,
+lo que puede variar debido a factores
+como el hardware Bluetooth del móvil,
+la obstrucción del entorno y la
+interferencia.</p>
+<p>• Si no se puede engranar la marcha, intente
+volver a abrir la aplicación móvil.</p>
+<ol>
+<li>
+<p>Llave digital: Toque para acceder a la
+interfaz de la llave digital para los ajustes de
+la llave Bluetooth y las verificaciones de la
+llave.</p>
+</li>
+<li>
+<p>Arranque remoto: Toque para desbloquear la
+puerta, presione el pedal del freno dentro de los
+2 minutos para engranar una marcha y luego el
+vehículo puede arrancarse para que otros lo
+conduzcan temporalmente.</p>
+</li>
+<li>
+<p>Estado del Bluetooth: Cuando la llave del
+teléfono está conectada al Bluetooth del
+vehículo, es azul; cuando no está conectada, es
+gris.</p>
+</li>
+<li>
+<p>Barra de accesos directos: Mantenga
+presionada esta área para personalizar las
+funciones de la barra de accesos directos, con
+un máximo de 8 funciones.</p>
+</li>
+<li>
+<p>Ajuste: Toque para acceder a la interfaz de
+ajustes.</p>
+</li>
+</ol>
+<p>Consejos</p>
+<p>• Cuando la llave del teléfono está conectada
+al Bluetooth del vehículo, también se puede
+usar en entornos sin señal de red, como un
+garaje.</p>
+<ol>
+<li>Ubicación del vehículo/mapa</li>
+</ol>
+<p>• Solo la cuenta del propietario puede ver la
+ubicación en tiempo real del vehículo.</p>
+<p>• El vehículo está equipado tanto con Bluetooth
+multimedia como con Bluetooth de llave. La
+llave del teléfono se conectará automáticamente al</p>
+<ol>
+<li>Parada temporal: Cuando la función "Apagar
+automáticamente" en el CID está desactivada y
+el vehículo está en estado encendido, la
+palanca de cambios está en la posición P. Abra</li>
+</ol>
+<p>XOS</p>
+<p>la aplicación móvil, vaya a la interfaz "XPENG"
+y toque "Parada temporal". En la ventana
+emergente, toque "Confirmar". El vehículo se
+bloqueará, y la pantalla táctil y el A/A
+permanecerán disponibles.</p>
+<p>precaución</p>
+<p>La autorización del vehículo necesita estar
+conectada a Internet y puede haber
+retraso en la respuesta. En caso de
+cualquier problema, vuelva a intentarlo. Para
+responder más rápido al desbloqueo y
+bloqueo, habilite los siguientes permisos
+para la aplicación XPENG Automobile en los
+ajustes de permisos del sistema:</p>
+<p>Si ha activado "Apagar automáticamente"
+en el CID, el vehículo se apagará
+automáticamente después de una hora.</p>
+<ol>
+<li>Verificación de la llave: Cuando acercás el
+teléfono-llave al vehículo, el Bluetooth se
+conecta automáticamente. Si no se conectó o
+no se puede arrancar el vehículo al engranar
+una marcha, podés tocar "Verificación de la llave"
+para obtener una guía que te ayude a resolver el problema.</li>
+</ol>
+<p>• Sistema no iOS: permiso de Bluetooth, permiso
+de autoarranque y permiso de ejecución en
+segundo plano.</p>
+<p>• Sistema iOS: información de ubicación: siempre
+permitida; actualización de Apps en segundo
+plano; servicio de ubicación (configuración del
+teléfono móvil → privacidad → servicio de
+ubicación).</p>
+<ol>
+<li>
+<p>Configuración de la llave Bluetooth: Después de
+activar el teléfono-llave, podés configurar el
+Desbloqueo o Bloqueo automático.</p>
+</li>
+<li>
+<p>Autorización del vehículo: Autorizá el vehículo a
+otras cuentas de XPENG; se puede autorizar un
+máximo de 5 cuentas.</p>
+</li>
+</ol>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Volver al principio
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.instant", "navigation.top", "search.highlight"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado al portapapeles", "clipboard.copy": "Copiar al portapapeles", "search.result.more.one": "1 m\u00e1s en esta p\u00e1gina", "search.result.more.other": "# m\u00e1s en esta p\u00e1gina", "search.result.none": "No se encontraron documentos", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Teclee para comenzar b\u00fasqueda", "search.result.term.missing": "Falta", "select.version": "Seleccionar versi\u00f3n"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>

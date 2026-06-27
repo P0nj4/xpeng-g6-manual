@@ -1,0 +1,1711 @@
+
+<!doctype html>
+<html lang="es" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://p0nj4.github.io/xpeng-g6-manual/cap10-entrada-salida/">
+      
+      
+        <link rel="prev" href="../cap09-viaje-seguro/">
+      
+      
+        <link rel="next" href="../cap11-operacion-conduccion/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+    
+    
+      
+        <title>10. Entrada y salida - XPeng G6 — Manual de Usuario</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#entrada-y-salida" class="md-skip">
+          Saltar a contenido
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabecera">
+    <a href=".." title="XPeng G6 — Manual de Usuario" class="md-header__button md-logo" aria-label="XPeng G6 — Manual de Usuario" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            XPeng G6 — Manual de Usuario
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              10. Entrada y salida
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Búsqueda" placeholder="Búsqueda" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Buscar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpiar" aria-label="Limpiar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando búsqueda
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navegación" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="XPeng G6 — Manual de Usuario" class="md-nav__button md-logo" aria-label="XPeng G6 — Manual de Usuario" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    XPeng G6 — Manual de Usuario
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Índice
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cap01-bienvenida/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    1. Hola, amigo de XPENG
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cap02-perfil-vehiculo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2. Perfil del Vehículo
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cap03-xos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    3. XOS
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cap04-asistencia-realidad-virtual/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    4. Asistencia de Realidad Virtual en Tiempo Real
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cap05-imagen-inteligente/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    5. Imágenes Inteligentes
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cap06-asistencia-conduccion/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    6. Asistencia a la conducción
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cap07-estacionamiento-asistido/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    7. Estacionamiento asistido
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cap08-seguridad-activa/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    8. Seguridad activa
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cap09-viaje-seguro/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    9. Viajar con tranquilidad
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    10. Entrada y salida
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cap11-operacion-conduccion/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    11. Operación de Conducción
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cap12-configuracion-confort/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    12. Configuración de Confort
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cap13-instrucciones-carga/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    13. Instrucciones de Carga
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cap14-mantenimiento-diario/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    14. Mantenimiento Diario
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cap15-rescate-emergencia/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    15. Rescate de Emergencia
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cap16-informacion-vehiculo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    16. Información del Vehículo
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
+  
+  
+  
+    
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="entrada-y-salida">Entrada y salida</h1>
+<p>Entrada y Salida</p>
+<p>Localización Rápida del Vehículo</p>
+<p>Cuando esté cerca del vehículo (por ejemplo, en un
+estacionamiento residencial), en la APP móvil, seleccione
+la interfaz “XPENG” o la interfaz “Ubicación del Vehículo/
+Mapa”, y elija el aviso mediante bocina
+o destello para que pueda encontrar rápidamente el vehículo.</p>
+<p>Introducción</p>
+<p>Cuando no se puede encontrar el vehículo, esta función
+puede utilizarse para localizarlo.</p>
+<p>Operación</p>
+<p>• Solo el número de cuenta del propietario puede ver
+la ubicación en tiempo real del vehículo.</p>
+<p>Consejos</p>
+<p>Cuando esté lejos del vehículo o no
+sepa dónde está estacionado el vehículo, puede
+ir a la interfaz “XPENG” en su aplicación móvil
+para consultar la información de ubicación geográfica
+del vehículo.</p>
+<p>Localización del vehículo a larga distancia</p>
+<p>• Una conexión de red deficiente del vehículo puede provocar
+que la función de búsqueda del vehículo no funcione
+correctamente.</p>
+<p>• Cuando el vehículo está bloqueado, el sistema
+captura automáticamente fotografías del
+perímetro del vehículo, y las anonimiza y
+encripta para proteger la privacidad del usuario.</p>
+<p>Toque la información de ubicación para ver fotos de
+la zona que rodea al vehículo estacionado; toque
+la cámara para ver el video alrededor del vehículo;
+toque la navegación para generar una ruta que le permita localizar el
+vehículo.</p>
+<p>Retroalimentación de Desbloqueo/Bloqueo</p>
+<p>Introducción</p>
+<p>Localización del vehículo a corta distancia</p>
+<p>Utilice la interfaz de la App móvil para operar la localización
+del vehículo a corta distancia.</p>
+<p>Cuando el vehículo se desbloquea, las puertas se desbloquean
+de forma sincronizada; las luces intermitentes a ambos lados
+del vehículo parpadearán dos veces; la bocina sonará</p>
+<p>Entrada y Salida</p>
+<p>o se reproducirá música de acordes (si está configurado); la manija de la puerta
+delantera se extenderá (si está configurado); los espejos laterales se
+abrirán (si está configurado); y el sistema de alarma
+antirrobo se desactivará.</p>
+<p>• En la CID, vaya a la interfaz “ 
+ →Ventana y Puerta”,
+y podrá activar o desactivar la función “Manijas
+Emergentes al Desbloquear”.</p>
+<p>Cuando el vehículo se bloquea, las puertas se bloquean
+de forma sincronizada; las luces intermitentes a ambos lados del
+vehículo parpadearán una vez; la bocina sonará o
+se reproducirá música de acordes (si está configurado); la manija de la puerta
+delantera se retraerá; los espejos laterales se plegarán (si
+está configurado); las ventanas se cerrarán (si está configurado); y el sistema de alarma
+antirrobo se activará.</p>
+<p>Puede configurar el modo de apertura y cierre de los
+espejos laterales cuando el vehículo está bloqueado a través de
+la CID:</p>
+<p>• En la CID, vaya a la interfaz “ 
+ →Conducción→Espejos Laterales
+Exteriores”, y podrá activar o desactivar
+“Plegar Espejos Laterales automáticamente después del bloqueo
+del vehículo”.</p>
+<p>• En el panel de accesos directos, toque “Ajuste del Espejo
+Lateral”. En la interfaz “Espejo Lateral”,
+puede activar o desactivar “Plegar Espejos Laterales
+automáticamente después del bloqueo del vehículo”.</p>
+<p>Puede configurar el método de retroalimentación para
+desbloquear o bloquear el vehículo a través de la
+pantalla de control central:</p>
+<p>Operación</p>
+<p>Puede configurar el modo de apertura y cierre de las
+ventanas cuando están bloqueadas a través de la CID:</p>
+<p>• En la CID, vaya a la interfaz “ 
+ →Ventana y Puerta”,
+y podrá seleccionar los métodos para
+la retroalimentación de desbloqueo y bloqueo respectivamente: “Destello
+de Luces,” “Destello + Bocina”, y “Destello + Acorde”.</p>
+<p>• En el CID, dirigite a la interfaz “
+ →Ventana y Puerta” y podés activar o desactivar
+“Cerrar Ventanas Automáticamente después de Bloquear
+el Vehículo”.</p>
+<p>Podés configurar la forma de habilitar o deshabilitar
+las Manijas Emergentes al Desbloquear a través del CID:</p>
+<p><img alt="Imagen 1" src="../images/cap10-img01.png" /></p>
+<p>Entrada y Salida</p>
+<p>Sistema de Alarma Antirrobo*（si corresponde）</p>
+<p>Llave de Tarjeta NFC</p>
+<p>Cuando el sistema antirrobo está activado y se abre
+cualquier puerta (incluido el baúl) o el capó delantero,
+el sistema antirrobo emitirá una alarma a través
+de la bocina y las luces de giro. La alarma del sistema
+antirrobo puede desactivarse después de desbloquear
+el vehículo.</p>
+<p>Introducción</p>
+<p>La llave de tarjeta NFC permite desbloquear, bloquear
+y arrancar el vehículo.</p>
+<p>Funcionamiento</p>
+<p>La alarma del sistema antirrobo dura
+aproximadamente 28 segundos y se reinicia si
+las puertas (incluido el baúl) o la tapa del
+compartimento delantero se abren nuevamente.</p>
+<p>Consejos</p>
+<p>Está prohibido realizar modificaciones al sistema
+antirrobo del vehículo, ya que esto puede provocar que el sistema
+no funcione correctamente.</p>
+<p>advertencia</p>
+<p>1.
+Desbloqueo de puertas</p>
+<p>• Cuando el vehículo esté bloqueado, acercá la
+Llave de Tarjeta de Comunicación de Campo Cercano
+al área del sensor NFC en el pilar B del lado
+del conductor durante aproximadamente un segundo. En</p>
+<p><img alt="Imagen 2" src="../images/cap10-img02.png" /></p>
+<p>Entrada y Salida</p>
+<p>ese momento, el vehículo proporcionará un
+aviso de retroalimentación de desbloqueo, indicando que
+el desbloqueo fue exitoso.</p>
+<p>la Llave de Tarjeta de Comunicación en el área de carga
+inalámbrica del lado del conductor (marcada
+por la línea punteada) para volver a autenticar.
+Una vez que se detecta el llavero de la tarjeta, el temporizador
+de autenticación de 30 segundos se reiniciará. Una vez
+que la autenticación sea exitosa, podés arrancar el
+vehículo presionando el pedal de freno y
+cambiando de marcha.</p>
+<ol>
+<li>Bloqueo al alejarse</li>
+</ol>
+<p>• Cuando el vehículo esté desbloqueado y todas las puertas
+(incluidos el capó delantero y el baúl) estén
+cerradas, acercá la Llave de Tarjeta de Comunicación
+de Campo Cercano al área de detección NFC en el
+pilar B del lado del conductor durante aproximadamente
+un segundo. En ese momento, el vehículo
+proporcionará un aviso de retroalimentación de bloqueo,
+indicando que el bloqueo fue exitoso.</p>
+<ol>
+<li>Arrancar el vehículo</li>
+</ol>
+<p>• Dentro de los 30 segundos de usar la Llave de Tarjeta
+de Comunicación de Campo Cercano, podés presionar
+el pedal de freno y cambiar de marcha para arrancar el
+vehículo.</p>
+<p>• No dobles, tuerzas ni cortes la llave de tarjeta NFC;</p>
+<p>Consejos</p>
+<p>• Si el vehículo no puede arrancarse dentro de los
+30 s, la pantalla de control central mostrará un
+aviso emergente que indica “"Llave no
+detectada"”. Por favor, colocá la Llave de Comunicación
+de Campo Cercano</p>
+<p>• No coloques la llave de tarjeta NFC en un lugar
+caliente (por ejemplo, la consola de instrumentos);</p>
+<p><img alt="Imagen 3" src="../images/cap10-img03.png" /></p>
+<p>Entrada y Salida</p>
+<p>• No coloques teléfonos móviles u otros objetos
+metálicos en el área de carga inalámbrica de tu
+teléfono cuando arranques el vehículo usando la
+llave de tarjeta NFC;</p>
+<p>Funcionamiento</p>
+<p>• No coloques la llave de tarjeta NFC en el área
+de detección de carga inalámbrica cuando uses
+la función de carga inalámbrica del teléfono móvil.</p>
+<p>Llave Remota Inteligente</p>
+<p>Introducción</p>
+<p>El vehículo está equipado con una llave remota
+inteligente, que admite tanto la operación con botones como el
+Desbloqueo o Bloqueo Automático</p>
+<p>1.
+Botón de bloqueo</p>
+<p>Presione brevemente este botón y el vehículo
+mostrará un aviso de confirmación de bloqueo,
+indicando que el bloqueo se realizó correctamente.</p>
+<p>Consejos</p>
+<p>• El vehículo no se bloqueará a menos que
+esté en posición P y todas las puertas
+(incluida la tapa del compartimento
+delantero y el maletero)</p>
+<p><img alt="Imagen 4" src="../images/cap10-img04.png" /></p>
+<p>Entrada y salida</p>
+<p>estén cerradas, salvo que el vehículo se
+deje sin supervisión.</p>
+<p>Reemplazo de la batería de la llave de control
+remoto inteligente</p>
+<ol>
+<li>Botón de apertura/cierre del maletero</li>
+</ol>
+<p>Haga doble clic en este botón para abrir o cerrar
+el maletero. Pause la apertura o el cierre del
+maletero.</p>
+<ol>
+<li>Botón de desbloqueo</li>
+</ol>
+<p>Presione este botón y el vehículo mostrará
+un aviso de confirmación de desbloqueo,
+indicando que el desbloqueo se realizó
+correctamente.</p>
+<ol>
+<li>Botón de estacionamiento y apertura/cierre de la tapa del puerto de carga</li>
+</ol>
+<p>• Toque dos veces este botón para abrir o
+cerrar la tapa del puerto de carga.</p>
+<p>1.
+Presione el botón de desbloqueo de la cubierta
+embellecedora y retire la cubierta embellecedora
+en la dirección de la flecha.</p>
+<p>• Asiste con el uso de las funciones
+relacionadas con el estacionamiento.</p>
+<p><img alt="Imagen 5" src="../images/cap10-img05.png" /></p>
+<p>Entrada y salida</p>
+<ol>
+<li>
+<p>Haga palanca en los bordes de ambos lados de
+la cubierta trasera con una herramienta adecuada,
+luego levante y retire la parte central de la
+cubierta trasera.</p>
+</li>
+<li>
+<p>Gire la placa de la cubierta de la batería de la
+llave en sentido antihorario siguiendo la dirección
+de la flecha y retire la placa de la cubierta de la
+batería de la llave.</p>
+</li>
+</ol>
+<p><img alt="Imagen 6" src="../images/cap10-img06.png" /></p>
+<p><img alt="Imagen 7" src="../images/cap10-img07.png" /></p>
+<p>Entrada y salida</p>
+<p>Advertencias, precauciones y limitaciones</p>
+<p>advertencia</p>
+<p>LA LLAVE DEL VEHÍCULO
+CONTIENE UNA PILA DE
+BOTÓN</p>
+<p>Las pilas de botón de las
+llaves del automóvil son
+extremadamente peligrosas.
+Independientemente de si son
+nuevas o usadas, siempre
+deben mantenerse fuera del
+alcance de los niños. Si se
+ingieren o se introducen en el
+cuerpo, las pilas de botón de
+litio pueden causar lesiones
+graves o incluso mortales en
+dos horas o menos. Si sospecha
+que se ha ingerido o introducido
+en el cuerpo una pila, busque
+atención médica de inmediato.</p>
+<ol>
+<li>
+<p>Extraiga la batería de la llave. Modelo de
+batería: CR2450.</p>
+</li>
+<li>
+<p>Instálela en el orden inverso. Durante la
+instalación, mantenga el “+” (polo positivo) de la
+batería de la llave hacia arriba.</p>
+</li>
+</ol>
+<p><img alt="Imagen 8" src="../images/cap10-img08.png" /></p>
+<p><img alt="Imagen 9" src="../images/cap10-img09.png" /></p>
+<p>Entrada y salida</p>
+<p>Llave de la aplicación móvil</p>
+<p>Dispositivos compatibles: teléfonos con Android
+que admiten NFC.</p>
+<p>Introducción</p>
+<p>Consejos</p>
+<p>Después de instalar la aplicación XPENG, puede
+registrar teléfonos móviles como llaves del
+vehículo y utilizar las tecnologías Bluetooth y NFC
+para la comunicación. Esto permite bloquear/
+desbloquear, arrancar el vehículo y controles
+adicionales de forma cómoda y segura.</p>
+<p>Una vez activada la llave, la aplicación
+predeterminada de NFC debe configurarse como
+“XPENG Automobile app” antes de poder usarla.</p>
+<p>En la aplicación XPENG, vaya a “Llave digital”,
+toque “Activar” bajo Llave Bluetooth y opere
+según las indicaciones de la aplicación XPENG
+para crear una llave Bluetooth móvil.</p>
+<p>Llave Bluetooth móvil</p>
+<p>La aplicación XPENG admite los siguientes tres
+tipos de llaves:</p>
+<p>• Llave Bluetooth móvil</p>
+<p>Dispositivos aplicables: teléfonos iOS, Harmony y
+Android.</p>
+<p>Llave Bluetooth: admite dos modos para las
+operaciones de bloqueo y desbloqueo.</p>
+<p>Bloqueo o desbloqueo con llave Bluetooth</p>
+<p>After turning on the key, change the different... — traduzco conservando el formato:</p>
+<p>Tras encender la llave, cambiar el sistema, iniciar sesión con un teléfono diferente o desinstalar la aplicación: todo puede sincronizar automáticamente la llave, sin necesidad de volver a encenderla.</p>
+<p>Consejos</p>
+<p>• Desbloqueo y bloqueo manual: Una vez que el teléfono móvil se haya emparejado correctamente con el vehículo mediante Bluetooth, podés usar la App XPENG para desbloquear, abrir o cerrar las ventanillas, abrir el baúl, etc.</p>
+<p>• Llave NFC móvil</p>
+<p>Entrada y salida</p>
+<p>• Desbloqueo y bloqueo automático: En la APP XPENG, activá el interruptor de “Desbloqueo y bloqueo automático”. Una vez que el teléfono móvil se haya emparejado correctamente con el Bluetooth del vehículo, podés desbloquear automáticamente el vehículo al acercar tu teléfono móvil al vehículo. El vehículo se bloqueará automáticamente cuando te alejes del vehículo llevando la llave.</p>
+<p>Teléfono con sistema iOS</p>
+<p>1.
+La información de ubicación debe configurarse en permitir siempre</p>
+<ol>
+<li>
+<p>Actualización de apps en segundo plano</p>
+</li>
+<li>
+<p>Servicios de ubicación (Configuración &gt; Privacidad &gt; Servicios de ubicación)</p>
+</li>
+</ol>
+<p>Llave NFC del teléfono móvil</p>
+<p>precaución</p>
+<p>En la App XPENG, andá a “Llave digital”, tocá “Activar” debajo de la llave NFC y operá según las indicaciones de la App XPENG para crear una llave NFC móvil.</p>
+<p>Después de desbloquear, no cierres la App Xpeng. Mantené la App de Xiaopeng Motors ejecutándose en segundo plano. Determiná la posición del dispositivo respecto al vehículo y desbloquealo desde el dispositivo. Para garantizar el funcionamiento normal, asegurate de habilitar los siguientes permisos para la App de Xiaopeng Motors:</p>
+<p>Esta función solo es aplicable a teléfonos móviles con sistema operativo Android 9.0 o superior y hardware NFC.</p>
+<p>Consejos</p>
+<p>Teléfonos Android</p>
+<p>1.
+Permiso de Bluetooth</p>
+<ol>
+<li>
+<p>Permiso de inicio automático</p>
+</li>
+<li>
+<p>Permisos de funcionamiento en segundo plano</p>
+</li>
+</ol>
+<p>Entrada y salida</p>
+<p>Desbloqueo o arranque del vehículo con la llave NFC</p>
+<p>Consejos</p>
+<p>• Al desbloquear con una llave XPENG Auto, la app de pago predeterminada de XPENG Auto debe configurarse como la app de XPENG Auto; de lo contrario, el NFC no funcionará correctamente.</p>
+<p>• Al desbloquear/arrancar el vehículo con la llave NFC, será necesario que la pantalla del teléfono esté desbloqueada. El teléfono puede estar apagado o la pantalla puede no funcionar correctamente, lo que puede impedir el uso de la llave NFC.</p>
+<p>• Mantené la parte trasera de tu teléfono lo más cerca posible del área de detección NFC, según la parte trasera de tu teléfono.</p>
+<p>El procedimiento para desbloquear, bloquear y arrancar con la llave NFC del teléfono móvil es idéntico al de una tarjeta NFC. Una vez que hayas abierto la App XPENG, simplemente colocá tu teléfono móvil cerca del área de reconocimiento NFC en el pilar B para desbloquear o bloquear tu vehículo. Tras la verificación, cuando coloques tu teléfono cerca del área NFC del interior del vehículo, podés presionar el pedal del freno y cambiar de marcha para arrancar el vehículo.</p>
+<p>Desactivación de la llave digital</p>
+<p>En el CID, andá a la interfaz “ 
+ →General→Seguridad y privacidad”, tocá “Desactivar llaves digitales del vehículo”. En la ventana emergente, tocá “Confirmar para enviar” para enviar un código de verificación al número de teléfono del propietario del vehículo. Después de que el conductor ingrese y verifique el código, se desactivarán las llaves digitales del vehículo de todos los usuarios.</p>
+<p><img alt="Imagen 10" src="../images/cap10-img10.png" /></p>
+<p><img alt="Imagen 11" src="../images/cap10-img11.png" /></p>
+<p>Entrada y salida</p>
+<p>Consejos</p>
+<p>• Después de reiniciar el teléfono o actualizar
+el sistema, si la App XPENG no se ha vuelto
+a abrir.</p>
+<p>Cuando la llave digital se da de baja, todos
+los usuarios autorizados deben reactivar la
+llave digital y se debe usar con precaución.</p>
+<p>• Cuando la puerta del vehículo, el capó
+delantero o el maletero no están completamente
+cerrados y se pierde la conexión Bluetooth al
+alejarse del vehículo.</p>
+<p>Advertencias, precauciones y limitaciones</p>
+<ol>
+<li>¿En qué combinaciones (incluidas, entre
+otras) la llave NFC del teléfono móvil no logra
+bloquear o desbloquear?</li>
+</ol>
+<p>1.
+¿En qué combinaciones (incluidas, entre
+otras) podría fallar la función de bloqueo/
+desbloqueo automático de la llave Bluetooth?</p>
+<p>• Cuando el teléfono tiene poca batería o está
+en modo de ahorro de energía.</p>
+<p>• Cuando el teléfono tiene poca batería o está
+en modo de ahorro de energía.</p>
+<p>• La función Bluetooth del teléfono móvil está
+desactivada.</p>
+<p>• La función NFC del teléfono móvil está
+desactivada.</p>
+<p>• Cuando el sistema del teléfono ha cerrado
+la App XPENG.</p>
+<p>• La aplicación de pago predeterminada del
+teléfono no está configurada como la App
+XPENG.</p>
+<p>Consejos</p>
+<p>• Cuando la señal Bluetooth es inestable o se
+desconecta de forma anómala.</p>
+<p>Cuando la llave Bluetooth del teléfono móvil
+no logre desbloquear, reinicie primero la App
+XPENG Auto. Si el problema aún no se resuelve,
+utilice la pantalla “XPENG→Llave digital→
+comprobación</p>
+<p>Entrada y salida</p>
+<p>de llave”, siga las indicaciones para resolver el
+problema de conexión.</p>
+<p>Funcionamiento</p>
+<p>Entrada sin llave</p>
+<p>Interruptor capacitivo de la manija de la puerta</p>
+<p>Introducción</p>
+<p>La entrada sin llave admite los siguientes
+métodos para bloquear y desbloquear:</p>
+<p>• Interruptor capacitivo de la manija de la
+puerta.</p>
+<p>• Bloqueo y desbloqueo automáticos.</p>
+<p>Con la llave inteligente a distancia o la llave
+Bluetooth del móvil, puede tocar el interruptor
+capacitivo de la manija de la puerta delantera
+para desbloquear o bloquear el vehículo.</p>
+<p>• Desbloquear la puerta: Cuando el vehículo
+está bloqueado, toque el interruptor capacitivo
+de la manija de la puerta delantera. En ese
+momento, el vehículo mostrará un aviso de
+confirmación de desbloqueo, indicando que el
+desbloqueo se ha realizado correctamente.</p>
+<p><img alt="Imagen 12" src="../images/cap10-img12.png" /></p>
+<p>Entrada y salida</p>
+<p>• Bloqueo al alejarse: Cuando el vehículo está
+desbloqueado y todas las puertas (incluidos el
+capó delantero y el maletero) están cerradas,
+al tocar el interruptor capacitivo de la manija
+de la puerta delantera se activará un aviso de
+confirmación de bloqueo, indicando que el
+bloqueo se ha realizado correctamente.</p>
+<p>desbloquea automáticamente las puertas, y al
+alejarse las bloquea automáticamente.</p>
+<p>• “Desbloqueo automático:” Después de activar
+"Bloqueo/Desbloqueo automático", acerque
+la llave a distancia* a una posición de aproxi-
+madamente 3,5 metros del vehículo, y el
+vehículo se desbloqueará automáticamente.</p>
+<p>Desbloqueo automático*</p>
+<p>Después de que el vehículo se bloquee
+automáticamente, si todavía está dentro del
+rango de detección, es posible que no pueda
+desbloquear el vehículo cuando se acerque
+nuevamente. En ese caso, puede tirar de la
+manija de la puerta o usar la llave para
+desbloquearlo manualmente.</p>
+<p>Consejos</p>
+<p>• "Bloqueo automático:" Bloqueo automático: Después
+de activar "Bloqueo/Desbloqueo automático", tome
+la llave remota* y aléjese hasta una posición de
+aproximadamente 8 metros del vehículo, y el
+vehículo se bloqueará automáticamente.</p>
+<p>En la CID, vaya a la interfaz " 
+ →Ventana y Puerta",
+seleccione "Bloqueo/Desbloqueo automático";
+cuando todas las puertas estén cerradas y el asiento
+del conductor esté desocupado, al acercarse con la
+llave remota se</p>
+<p><img alt="Imagen 13" src="../images/cap10-img13.png" /></p>
+<p><img alt="Imagen 14" src="../images/cap10-img14.png" /></p>
+<p>Entrada y Salida</p>
+<p>Consejos</p>
+<ol>
+<li>
+<p>Detrás de la luz de lectura delantera</p>
+</li>
+<li>
+<p>Ambos lados del paragolpes trasero</p>
+</li>
+</ol>
+<p>Con el vehículo detenido, las puertas (incluido
+el baúl) y el capó cerrados, el vehículo en
+posición de Estacionamiento (P) y sin nadie en el
+asiento del conductor, las puertas se bloquearán
+automáticamente solo cuando se retire la llave
+del vehículo. Asegúrese de que el vehículo esté
+bloqueado antes de salir.</p>
+<p>Los pasajeros con marcapasos cardíacos implantados
+deben mantener una distancia de al menos 22 centímetros
+de la antena Bluetooth del vehículo para evitar que la
+antena Bluetooth interfiera con el funcionamiento del
+marcapasos cardíaco.</p>
+<p>Advertencias, Precauciones y Limitaciones</p>
+<p>Desbloqueo y Bloqueo Interior</p>
+<p>Posición de la antena Bluetooth</p>
+<p>Introducción</p>
+<p>Puede bloquear o desbloquear el vehículo desde el
+interior del vehículo utilizando los siguientes métodos:</p>
+<p>• Cerradura de la puerta del vehículo</p>
+<p>• Cerradura de la puerta del vehículo desde la pantalla de control central</p>
+<p>• Desbloqueo automático al estacionar</p>
+<p>1.
+Ambos lados del paragolpes delantero</p>
+<p><img alt="Imagen 15" src="../images/cap10-img15.png" /></p>
+<p>Entrada y Salida</p>
+<p>Operación</p>
+<p>Cerradura de la puerta del vehículo desde la CID</p>
+<p>Cerradura de la puerta del vehículo</p>
+<p>• En la CID, vaya a la interfaz " 
+ →Ventana y Puerta",
+y podrá activar o desactivar "Cerradura de
+Puerta".</p>
+<p>El interruptor de la cerradura de la puerta se
+encuentra en el apoyabrazos de la puerta del
+conductor:</p>
+<p>•
+Bloquear: Cuando todas las puertas (y el capó
+delantero y la tapa del baúl) estén cerrados, presione
+este interruptor para bloquear el vehículo.</p>
+<p>• En la barra de tareas inferior de la CID, toque "Cerradura
+de Puerta" (si está configurado), y podrá bloquear o desbloquear el
+vehículo.</p>
+<p>•
+Desbloquear: Presione este interruptor para desbloquear el
+vehículo.</p>
+<p><img alt="Imagen 16" src="../images/cap10-img16.png" /></p>
+<p><img alt="Imagen 17" src="../images/cap10-img17.png" /></p>
+<p><img alt="Imagen 18" src="../images/cap10-img18.png" /></p>
+<p><img alt="Imagen 19" src="../images/cap10-img19.png" /></p>
+<p><img alt="Imagen 20" src="../images/cap10-img20.png" /></p>
+<p>Entrada y Salida</p>
+<p>Desbloqueo automático al estacionar</p>
+<p>• En la CID, toque " 
+ ", y luego toque "Asistencia
+RV en Tiempo Real" en el Centro de Aplicaciones o "Asistencia
+de Realidad Virtual en Tiempo Real" (si está configurado) en la barra de tareas
+de la parte inferior de la CID para acceder a la interfaz de Asistencia
+de Realidad Virtual en Tiempo Real. En la
+interfaz, toque el ícono debajo del modelo 3D del
+vehículo para desbloquear o bloquear el vehículo.</p>
+<p>En la CID, vaya a la interfaz " 
+ →Ventana y Puerta",
+y podrá activar o desactivar "Desbloqueo
+automático al Estacionar el Vehículo".</p>
+<p>Cuando "Desbloqueo automático al Estacionar el
+Vehículo" está habilitado, las puertas se desbloquean automáticamente
+después de que el vehículo cambie a posición P y se
+desabroche el cinturón de seguridad del conductor.</p>
+<p><img alt="Imagen 21" src="../images/cap10-img21.png" /></p>
+<p><img alt="Imagen 22" src="../images/cap10-img22.png" /></p>
+<p><img alt="Imagen 23" src="../images/cap10-img23.png" /></p>
+<p><img alt="Imagen 24" src="../images/cap10-img24.png" /></p>
+<p>Entrada y Salida</p>
+<p>Consejos</p>
+<p>• Desbloquee el vehículo mediante el interruptor capacitivo de la manija de la puerta delantera.</p>
+<p>Las cerraduras de las puertas también se abren/cierran automáticamente si se cumplen ciertas condiciones:</p>
+<p>• Configurar Manijas emergentes al desbloquear.</p>
+<p>• Bloqueo automático en marcha: Cuando las puertas (incluido el maletero) y la cubierta del compartimento delantero están cerradas, las cerraduras de las puertas se bloquean automáticamente si la velocidad del vehículo es superior a 10 km/h.</p>
+<p>• Despliegue la manija de la puerta manualmente.</p>
+<p>Funcionamiento</p>
+<p>Configurar Manijas emergentes al desbloquear</p>
+<p>• Desbloqueo automático al estacionar: La puerta se abre desde el interior del vehículo (botón eléctrico de apertura de puerta delantera/apertura de emergencia) y la cerradura de la puerta se desbloquea automáticamente.</p>
+<p>• Desbloqueo automático de emergencia: La puerta se desbloquea automáticamente cuando el vehículo sufre una colisión o se produce una emergencia, como una fuga térmica.</p>
+<p>Manijas eléctricas de puerta ocultas</p>
+<p>En la CID, vaya a la interfaz « 
+ →Ventana y puerta» y active «Manijas emergentes al desbloquear». Cuando el vehículo se desbloquea, la manija de la puerta</p>
+<p>Introducción</p>
+<p>El vehículo cuenta con manijas eléctricas de puerta ocultas, que se pueden operar de la siguiente manera:</p>
+<p><img alt="Imagen 25" src="../images/cap10-img25.png" /></p>
+<p><img alt="Imagen 26" src="../images/cap10-img26.png" /></p>
+<p>Entrada y salida</p>
+<p>se desplegará automáticamente, de modo que pueda tirar de la manija para abrir la puerta fácilmente.</p>
+<p>Retracción automática de la manija de la puerta</p>
+<p>• Retracción por bloqueo: Cuando la puerta está bloqueada, la manija de la puerta se retraerá automáticamente.</p>
+<p>Desplegar la manija de la puerta manualmente</p>
+<p>• Retracción al cambiar de marcha: Cuando la palanca de cambios pasa de P a N/R/D, la manija de la puerta se retraerá automáticamente.</p>
+<p>• Retracción por exceso de velocidad: Cuando la velocidad del vehículo supera los 3 km/h, la manija de la puerta se retraerá automáticamente.</p>
+<p>• Retracción por tiempo de espera: Si las puertas (incluido el maletero) y el capó delantero están cerrados y no se realiza la operación de retracción en un plazo de 120 segundos, la manija de la puerta se retraerá automáticamente.</p>
+<p>En la CID, vaya a la interfaz « 
+ →Ventana y puerta» y desactive «Manijas emergentes al desbloquear». Cuando el vehículo se desbloquea, la manija de la puerta no se desplegará automáticamente. En este caso, debe presionar el extremo delantero de la manija de la puerta y tirar de ella para abrir la puerta.</p>
+<p>advertencia</p>
+<p>Al usar las manijas de las puertas, tenga cuidado de que los dedos, joyas, uñas acrílicas, etc., no queden atrapados por la puerta o el mecanismo de la manija. De lo contrario, podría provocar daños a objetos o lesiones personales.</p>
+<p><img alt="Imagen 27" src="../images/cap10-img27.png" /></p>
+<p><img alt="Imagen 28" src="../images/cap10-img28.png" /></p>
+<p>Entrada y salida</p>
+<p>Consejos</p>
+<p>Funcionamiento</p>
+<p>• Al usar la función de estacionamiento automático, la manija de la puerta enrasada permanece desplegada; tirar de la manija de la puerta suspende la función de estacionamiento automático.</p>
+<p>A través de las manijas eléctricas de puerta ocultas</p>
+<p>• Controlar el plegado/despliegue de la manija de la puerta más de 8 veces en 1 minuto activará el modo antijuego, la manija de la puerta dejará de moverse y, después de 20 segundos, la función se reanudará.</p>
+<p>Apertura/cierre de las puertas eléctricas</p>
+<p>Introducción</p>
+<p>La puerta eléctrica se puede abrir o cerrar de las siguientes maneras:</p>
+<p>Cuando el vehículo está desbloqueado, la puerta se puede abrir usando la manija eléctrica de puerta oculta.</p>
+<p>• Manijas de puerta eléctricas ocultas</p>
+<p>• Botón eléctrico de apertura de puerta</p>
+<p>• Llave mecánica</p>
+<p>• Manija de apertura de emergencia o anilla de tracción</p>
+<p><img alt="Imagen 29" src="../images/cap10-img29.png" /></p>
+<p>Entrada y salida</p>
+<p>Botón eléctrico de apertura de puerta</p>
+<p>Manija delantera de apertura de emergencia de la puerta</p>
+<p>Con el vehículo detenido, presione el botón
+eléctrico de apertura de puerta para abrir la puerta.</p>
+<p>Tire de la manija de apertura de emergencia situada
+debajo del apoyabrazos de la puerta delantera para
+abrir la puerta.</p>
+<p>Consejos</p>
+<p>advertencia</p>
+<p>Cuando la velocidad del vehículo es superior a 3
+km/h, la puerta no puede abrirse mediante el
+botón eléctrico de apertura de puerta.</p>
+<p>Con el vehículo detenido o en marcha, al tirar
+de la manija de apertura de emergencia una
+vez se abre la puerta; no es para uso no urgente,
+no tire de la manija de apertura de emergencia
+mientras conduce.</p>
+<p><img alt="Imagen 30" src="../images/cap10-img30.png" /></p>
+<p><img alt="Imagen 31" src="../images/cap10-img31.png" /></p>
+<p>Entrada y salida</p>
+<p>Anilla trasera de apertura de emergencia de la puerta</p>
+<p>Llave mecánica</p>
+<p>1.
+Presione para abrir la placa de la cubierta de
+mantenimiento situada debajo del apoyabrazos de
+la puerta trasera.</p>
+<p>Cuando el vehículo no tiene energía, presione el
+extremo delantero de la manija de puerta oculta y
+tírela hacia afuera. Inserte la llave mecánica en el
+orificio de la cerradura, gírela en sentido horario
+para desbloquear la puerta y luego tire de la manija
+de la puerta para abrirla.</p>
+<ol>
+<li>Tire de la anilla de apertura de emergencia de
+la puerta para abrirla.</li>
+</ol>
+<p>advertencia</p>
+<p>Con el vehículo detenido o en marcha, al tirar de
+la lengüeta de apertura de emergencia una vez se
+abre la puerta; no es para uso no urgente, no tire
+de la lengüeta de apertura de emergencia mientras
+conduce.</p>
+<p>• Solo la puerta principal puede abrirse mediante
+la llave mecánica; al ingresar al vehículo, las
+demás puertas pueden abrirse mediante la
+manija/anilla de apertura de emergencia.</p>
+<p>Consejos</p>
+<p><img alt="Imagen 32" src="../images/cap10-img32.png" /></p>
+<p><img alt="Imagen 33" src="../images/cap10-img33.png" /></p>
+<p>Entrada y salida</p>
+<p>• Asegúrese de que la llave mecánica esté
+completamente insertada antes de girarla. Al
+desbloquear, la llave mecánica debe girarse de
+nuevo a la posición inicial para poder retirarla.
+Si la llave no gira durante la operación, insértela
+completamente para continuar girándola.</p>
+<p>• Voz Xpeng</p>
+<p>• Llave de la aplicación móvil</p>
+<p>• Tecla de acceso rápido del volante (si está configurada)</p>
+<p>• Pantalla de control central</p>
+<p>– Panel de accesos rápidos</p>
+<p>• En climas de frío extremo, no fuerce la
+salida de la llave si esta no regresa al usar la
+puerta con la llave mecánica. Comuníquese
+con el Centro de Servicio Automotriz Xpeng.</p>
+<p>– Barra de tareas inferior (si está configurada)</p>
+<p>• Interruptor de apertura de emergencia</p>
+<p>– Interfaz de configuración</p>
+<p>• La llave mecánica se suministra por separado
+con el vehículo, así que guárdela en un lugar
+seguro para evitar perderla.</p>
+<p>Consejos</p>
+<p>Al abrir/cerrar el compartimento de carga, este se
+retraerá una cierta distancia si encuentra una
+obstrucción.</p>
+<p>Apertura o cierre del baúl</p>
+<p>Introducción</p>
+<p>Al abrir/cerrar el baúl, asegúrese de que no haya
+personas ni otras obstrucciones dentro del área de
+apertura/cierre del baúl para evitar lesiones
+personales o daños al vehículo.</p>
+<p>advertencia</p>
+<p>El baúl puede abrirse o cerrarse de las
+siguientes maneras:</p>
+<p>• Interruptor exterior del baúl</p>
+<p>• Interruptor interior del baúl</p>
+<p>• Llave inteligente a distancia</p>
+<p>Entrada y salida</p>
+<p>Operación</p>
+<p>Interruptor interior del baúl</p>
+<p>Interruptor exterior del baúl</p>
+<p>Presione el interruptor interior para cerrar el baúl, o
+pausar la apertura o el cierre del baúl.</p>
+<p>Con las puertas desbloqueadas, puede presionar el
+interruptor exterior del baúl para abrir o cerrar el baúl, o
+pausar el baúl que se está abriendo/cerrando.</p>
+<p>Si el vehículo está bloqueado, mientras lleve la
+llave cerca del baúl, podrá abrir el baúl.</p>
+<p><img alt="Imagen 34" src="../images/cap10-img34.png" /></p>
+<p><img alt="Imagen 35" src="../images/cap10-img35.png" /></p>
+<p>Entrada y salida</p>
+<p>la pantalla de control central puede abrir o cerrar el
+baúl.</p>
+<p>En la CID, toque " 
+ " y luego toque "Asistencia
+VR en tiempo real" en el Centro de Aplicaciones o toque "Asistencia
+VR en tiempo real" en la barra de tareas inferior de la CID (si
+está configurada) para acceder a la interfaz de Asistencia de Realidad
+Virtual en Tiempo Real. En la interfaz, toque el icono debajo
+del modelo 3D para abrir o cerrar el baúl, o
+gire el modelo 3D para mostrar un icono de punto de acceso en
+el área del baúl, y toque el icono del punto de acceso para abrir
+o cerrar el baúl.</p>
+<p>En la CID, vaya a la interfaz " 
+ →Ventanilla y puerta"
+para abrir/cerrar "el Baúl". Tocar de nuevo durante
+el movimiento pausará la apertura/cierre.</p>
+<p>En la barra de tareas en la parte inferior de la CID, toque
+"Baúl" (si está configurado), y podrá abrir o cerrar el
+baúl.</p>
+<p>Interruptor de apertura de emergencia</p>
+<p>Si el baúl no se puede abrir, se puede abrir
+mediante las siguientes operaciones:</p>
+<p><img alt="Imagen 36" src="../images/cap10-img36.png" /></p>
+<p><img alt="Imagen 37" src="../images/cap10-img37.png" /></p>
+<p><img alt="Imagen 38" src="../images/cap10-img38.png" /></p>
+<p><img alt="Imagen 39" src="../images/cap10-img39.png" /></p>
+<p>Entrada y salida</p>
+<p>1.
+Baje el respaldo del asiento trasero e ingrese
+al baúl.</p>
+<ol>
+<li>
+<p>Tire de la palanca ① hacia la izquierda y manténgala, luego
+presione la palanca ② para desbloquear el baúl, y
+luego empuje el baúl hacia afuera para abrirlo en
+caso de emergencia.</p>
+</li>
+<li>
+<p>Presione el pestillo superior de la cubierta embellecedora del
+dispositivo de desbloqueo de emergencia para retirar la
+cubierta embellecedora.</p>
+</li>
+</ol>
+<p>Consejos</p>
+<p>Después de la apertura de emergencia, presione hacia abajo el
+baúl para cerrarlo.</p>
+<p>Ajuste del ángulo de despliegue del baúl</p>
+<p>El vehículo admite dos métodos (pantalla de control
+central e interruptor interior del baúl) para
+ajustar el ángulo de apertura del baúl:</p>
+<p><img alt="Imagen 40" src="../images/cap10-img40.png" /></p>
+<p><img alt="Imagen 41" src="../images/cap10-img41.png" /></p>
+<p>Entrada y salida</p>
+<p>• En la CID, vaya a la interfaz " 
+ →Ventanilla y puerta",
+y podrá ajustar la "Memoria del ángulo de despliegue
+del baúl".</p>
+<p>puede activar o desactivar las siguientes diferentes funciones
+de bienvenida.</p>
+<p>• Cuando el baúl esté desplegado en el ángulo
+deseado, mantenga presionado el interruptor inferior del baúl
+hasta que vea un aviso intermitente. En este momento,
+se completa la configuración del ángulo de despliegue
+del baúl.</p>
+<p>• Bienvenida del asiento del conductor</p>
+<p>• Bienvenida del pasajero delantero</p>
+<p>• Bienvenida de luces</p>
+<p>Operación</p>
+<p>• Efecto de sonido de bienvenida</p>
+<p>Consejos</p>
+<p>Bienvenida del asiento del conductor</p>
+<p>Cuando se mantiene presionado el interruptor,
+el ángulo de despliegue del compartimiento de carga se
+ajustará al valor más bajo si el ángulo de despliegue
+del compartimiento de carga está por debajo de la configuración
+mínima permitida.</p>
+<p>Cuando la función de bienvenida del asiento del conductor está
+habilitada, el asiento se desliza automáticamente hacia atrás
+a medida que se abre la puerta del conductor, facilitando su entrada
+y salida del vehículo. Al ingresar y
+cerrar la puerta de nuevo, el asiento regresa a la
+posición memorizada.</p>
+<p>Modo de bienvenida</p>
+<p>En la pantalla de control central, ve a la interfaz
+“ 
+ →Ventana y Puerta→Configuración de Bienvenida”,
+y podrás activar o desactivar la función de
+bienvenida del conductor.</p>
+<p>Introducción</p>
+<p>En la CID, ve a la interfaz “ 
+ →Ventana y
+Puerta→Configuración de Bienvenida”, y podrás</p>
+<p><img alt="Imagen 42" src="../images/cap10-img42.png" /></p>
+<p>Entrada y Salida</p>
+<p>Bienvenida del pasajero delantero</p>
+<p>precaución</p>
+<p>Con la función de bienvenida del asiento del
+pasajero delantero activada, al abrir la puerta del
+pasajero delantero el asiento se deslizará
+ligeramente hacia atrás, facilitando la entrada y
+salida. Al entrar al vehículo y cerrar nuevamente
+la puerta, el asiento vuelve a su posición
+guardada.</p>
+<p>Asegúrate siempre de que no haya
+obstrucciones dentro del área de movimiento del
+asiento antes de que se active la función de
+aproximación del asiento, ya que podrían
+producirse lesiones personales o daños al
+vehículo.</p>
+<p>Bienvenida de Luz</p>
+<p>En la CID, ve a la interfaz “ 
+ →Ventana y
+Puerta→Configuración de Bienvenida”, y podrás
+activar o desactivar la función de bienvenida del
+pasajero.</p>
+<p>Cuando la llave física remota se aproxima al
+vehículo dentro de un radio de 8 metros, los
+efectos de iluminación de bienvenida exterior se
+activarán automáticamente.</p>
+<p>Consejos</p>
+<p>En la pantalla de control central, ve a la interfaz “ 
+→Ventana y Puerta→, y podrás
+activar o desactivar la Bienvenida de Luz.”Configuración
+de Bienvenida</p>
+<p>• Si el ángulo del respaldo del asiento es mayor,
+el respaldo puede afectar a los pasajeros
+traseros y la función de aproximación no se
+activará.</p>
+<p>• Si la posición del asiento está en una posición
+retrasada y la persona ha podido salir del
+vehículo fácilmente, la función de aproximación
+no se activará.</p>
+<p>Consejos</p>
+<p>Cuando se activa la función de aproximación,
+el sistema sale automáticamente de la función de
+aproximación si operas las luces de forma activa
+(por ejemplo, luces bajas, luces altas) o
+desbloqueas el vehículo.</p>
+<p><img alt="Imagen 43" src="../images/cap10-img43.png" /></p>
+<p>Entrada y Salida</p>
+<p>Efecto de sonido de bienvenida</p>
+<p>• Presiona el pedal de freno para encender.</p>
+<p>• No se apaga durante una parada temporal.</p>
+<p>Después de habilitar el efecto de sonido de
+bienvenida, una vez que el conductor entra y
+cierra la puerta del conductor, el vehículo
+reproducirá música según el efecto de sonido de
+bienvenida interior seleccionado.</p>
+<p>Operación</p>
+<p>Abre la puerta para encender.</p>
+<p>En la pantalla de control central, ve a la interfaz
+“ 
+ →Ventana y Puerta→Configuración de Bienvenida”,
+y podrás activar o desactivar los efectos de
+sonido de bienvenida. Después de activar la
+función, podrás seleccionar los efectos de sonido
+de bienvenida deseados.</p>
+<p>Se enciende si cualquier puerta (excluyendo el
+maletero) se abre cuando el vehículo está
+desbloqueado.</p>
+<p>Bloquea el vehículo para apagar</p>
+<p>Cuando el asiento del conductor está
+desocupado, puedes apagar el vehículo después
+de bloquearlo desde el exterior.</p>
+<p>Encendido y Apagado del Vehículo</p>
+<p>Introducción</p>
+<p>El vehículo puede encenderse o apagarse de las
+siguientes maneras:</p>
+<p>• Abre la puerta para encender.</p>
+<p>• El Interruptor de Apagado de Emergencia se
+usa para Apagar.</p>
+<p>• Bloquea el vehículo para apagar.</p>
+<p><img alt="Imagen 44" src="../images/cap10-img44.png" /></p>
+<p>Entrada y Salida</p>
+<p>Apagado mediante el interruptor de apagado de
+emergencia*(si corresponde)</p>
+<p>Consejos</p>
+<p>Pulsar el interruptor de apagado de emergencia
+durante un tiempo prolongado a cierta velocidad
+del vehículo requiere confirmación en el
+instrumento, y pulsarlo tres veces en menos de 2
+segundos, haya o no velocidad del vehículo, hará
+que se apague directamente.</p>
+<p>Apagado de emergencia-CID</p>
+<p>Se pueden utilizar las siguientes formas para el
+apagado de emergencia:</p>
+<p>• Cuando el vehículo esté detenido, mantenga
+pulsado el interruptor de apagado de emergencia
+durante 5 segundos para apagar directamente el
+vehículo.</p>
+<p>• Cuando el vehículo esté detenido o a cierta
+velocidad, pulse el interruptor de apagado de
+emergencia 3 veces seguidas en menos de 2 s
+para apagar directamente el vehículo.</p>
+<p>Cuando el vehículo esté detenido y deba
+apagarse de emergencia, vaya a la interfaz “ 
+→Vehículo” de la pantalla de control central y
+toque “Apagar la alimentación eléctrica del
+vehículo” para</p>
+<p><img alt="Imagen 45" src="../images/cap10-img45.png" /></p>
+<p><img alt="Imagen 46" src="../images/cap10-img46.png" /></p>
+<p><img alt="Imagen 47" src="../images/cap10-img47.png" /></p>
+<p>Entrada y salida</p>
+<p>apagar la fuente de alimentación de alto voltaje y
+apagar el vehículo.</p>
+<p>Apagado automático</p>
+<p>Pise el pedal del freno para encender</p>
+<p>En el CID, vaya a la interfaz “ 
+ →General→Seguridad
+y Privacidad”, y podrá activar
+o desactivar la función “Apagado automático”.
+Aparecerá una ventana emergente en la pantalla
+de control central que mostrará un mensaje
+con una cuenta regresiva de 10 minutos hasta
+el apagado automático. En ese momento, puede
+tocar “Cancelar” para reiniciar la cuenta regresiva
+de 1 hora.</p>
+<p>Cuando el vehículo esté apagado, si la tarjeta
+llave de comunicación de campo cercano, la llave
+de control remoto o la llave del teléfono está
+dentro del vehículo, pise el pedal del freno para
+encender el vehículo.</p>
+<p>Sin apagado durante paradas temporales</p>
+<p>Cuando la función “Apagado automático” del
+CID está desactivada y el vehículo está en
+estado encendido, la palanca de cambios está
+en la posición P. Abra la APP móvil, vaya a la
+interfaz “XPENG” y toque “Parada temporal”. En la
+ventana emergente de aviso, toque “Confirmar”. El
+vehículo se bloqueará y la pantalla táctil y el A/C
+permanecerán disponibles.</p>
+<p>Después de activar la función “Apagado
+automático”, el vehículo se apagará
+automáticamente cuando se cumplan al mismo
+tiempo las siguientes condiciones.</p>
+<p>• No hay nadie sentado en el vehículo.</p>
+<p>• Todas las puertas (incluido el maletero) y el
+capó delantero están cerrados.</p>
+<p>• El vehículo está en estado estacionado.</p>
+<p>Si la función “apagado automático” está activada
+en el CID y se cumplen las condiciones para la
+ejecución del apagado automático, el vehículo
+se apaga automáticamente después de una hora.</p>
+<p>Consejos</p>
+<p>• No se realiza ninguna operación en el plazo de
+1 hora.</p>
+<p>Consejos</p>
+<p>Además, el vehículo se encenderá/apagará
+automáticamente cuando se cumplan ciertas
+condiciones.</p>
+<p><img alt="Imagen 48" src="../images/cap10-img48.png" /></p>
+<p>Entrada y salida</p>
+<p>• Encendido para actualización del sistema.</p>
+<p>• Encendido solicitado por la función de
+conducción.</p>
+<p>Funcionamiento</p>
+<p>Introducción</p>
+<p>Recordatorio de ocupación del asiento trasero</p>
+<p>La función de recordatorio de ocupación del
+asiento trasero ofrece un servicio que detecta el
+estado de los asientos traseros, los cinturones de
+seguridad y otros indicadores para proporcionar
+un recordatorio sobre objetos olvidados en la fila
+trasera.</p>
+<p>precaución</p>
+<p>En la CID, andá a “
+ →General→Seguridad y
+Privacidad”, y podés activar o desactivar la
+función “Recordatorio de Pasajeros en los
+Asientos Traseros”. Una vez activada la función, si
+se detecta alguna señal de actividad en los asientos
+traseros, se le recordará al conductor que revise el
+asiento trasero al bajar del vehículo.</p>
+<p>No se puede garantizar que esta función sea
+completamente precisa; observá con atención la
+parte trasera del vehículo al bajar y nunca dejes
+solos en el vehículo a niños, personas que necesiten
+asistencia o mascotas.</p>
+<p><img alt="Imagen 49" src="../images/cap10-img49.png" /></p>
+<p><img alt="Imagen 50" src="../images/cap10-img50.png" /></p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Volver al principio
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.instant", "navigation.top", "search.highlight"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado al portapapeles", "clipboard.copy": "Copiar al portapapeles", "search.result.more.one": "1 m\u00e1s en esta p\u00e1gina", "search.result.more.other": "# m\u00e1s en esta p\u00e1gina", "search.result.none": "No se encontraron documentos", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Teclee para comenzar b\u00fasqueda", "search.result.term.missing": "Falta", "select.version": "Seleccionar versi\u00f3n"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>
