@@ -82,7 +82,7 @@ def extract_chapter_content(doc: fitz.Document, chapter: Chapter, images_dir: Pa
             block_type = block[6]
             if block_type == 0:  # text
                 text = block[4].strip()
-                if text and len(text) > 2:
+                if text and len(text) > 2 and not text.isdigit():
                     parts.append(text)
             elif block_type == 1:  # image placeholder in block list
                 # Images are extracted separately below
@@ -116,7 +116,7 @@ def translate_text(text: str, retries: int = 3, backoff: int = 10) -> str:
     )
     for attempt in range(1, retries + 1):
         result = subprocess.run(
-            ["claude", "-p"],
+            ["claude", "-p", "--model", "claude-haiku-4-5"],
             input=prompt,
             capture_output=True,
             text=True,
