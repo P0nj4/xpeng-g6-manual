@@ -58,7 +58,6 @@ Cuando el vehículo se desbloquea, las puertas se desbloquean
 de forma sincronizada; las luces intermitentes a ambos lados
 del vehículo parpadearán dos veces; la bocina sonará
 
-180
 
 Entrada y Salida
 
@@ -118,7 +117,6 @@ el Vehículo”.
 Podés configurar la forma de habilitar o deshabilitar
 las Manijas Emergentes al Desbloquear a través del CID:
 
-181
 
 ![Imagen 1](images/cap10-img01.png)
 
@@ -163,7 +161,6 @@ Llave de Tarjeta de Comunicación de Campo Cercano
 al área del sensor NFC en el pilar B del lado
 del conductor durante aproximadamente un segundo. En
 
-182
 
 ![Imagen 2](images/cap10-img02.png)
 
@@ -213,7 +210,6 @@ de Campo Cercano
 • No coloques la llave de tarjeta NFC en un lugar
 caliente (por ejemplo, la consola de instrumentos);
 
-183
 
 ![Imagen 3](images/cap10-img03.png)
 
@@ -252,7 +248,6 @@ esté en posición P y todas las puertas
 (incluida la tapa del compartimento
 delantero y el maletero)
 
-184
 
 ![Imagen 4](images/cap10-img04.png)
 
@@ -290,7 +285,6 @@ en la dirección de la flecha.
 • Asiste con el uso de las funciones
 relacionadas con el estacionamiento.
 
-185
 
 ![Imagen 5](images/cap10-img05.png)
 
@@ -306,7 +300,6 @@ llave en sentido antihorario siguiendo la dirección
 de la flecha y retire la placa de la cubierta de la
 batería de la llave.
 
-186
 
 ![Imagen 6](images/cap10-img06.png)
 
@@ -345,7 +338,6 @@ batería: CR2450.
 instalación, mantenga el “+” (polo positivo) de la
 batería de la llave hacia arriba.
 
-187
 
 ![Imagen 8](images/cap10-img08.png)
 
@@ -403,7 +395,6 @@ Consejos
 
 • Llave NFC móvil
 
-188
 
 Entrada y salida
 
@@ -439,7 +430,6 @@ Permiso de Bluetooth
 
 3. Permisos de funcionamiento en segundo plano
 
-189
 
 Entrada y salida
 
@@ -460,7 +450,6 @@ Desactivación de la llave digital
 En el CID, andá a la interfaz “ 
  →General→Seguridad y privacidad”, tocá “Desactivar llaves digitales del vehículo”. En la ventana emergente, tocá “Confirmar para enviar” para enviar un código de verificación al número de teléfono del propietario del vehículo. Después de que el conductor ingrese y verifique el código, se desactivarán las llaves digitales del vehículo de todos los usuarios.
 
-190
 
 ![Imagen 10](images/cap10-img10.png)
 
@@ -524,7 +513,6 @@ XPENG Auto. Si el problema aún no se resuelve,
 utilice la pantalla “XPENG→Llave digital→
 comprobación
 
-191
 
 Entrada y salida
 
@@ -559,7 +547,6 @@ momento, el vehículo mostrará un aviso de
 confirmación de desbloqueo, indicando que el
 desbloqueo se ha realizado correctamente.
 
-192
 
 ![Imagen 12](images/cap10-img12.png)
 
@@ -607,7 +594,6 @@ cuando todas las puertas estén cerradas y el asiento
 del conductor esté desocupado, al acercarse con la
 llave remota se
 
-193
 
 ![Imagen 13](images/cap10-img13.png)
 
@@ -655,7 +641,6 @@ interior del vehículo utilizando los siguientes métodos:
 1.
 Ambos lados del paragolpes delantero
 
-194
 
 ![Imagen 15](images/cap10-img15.png)
 
@@ -689,7 +674,6 @@ vehículo.
 Desbloquear: Presione este interruptor para desbloquear el
 vehículo.
 
-195
 
 ![Imagen 16](images/cap10-img16.png)
 
@@ -724,7 +708,6 @@ Vehículo" está habilitado, las puertas se desbloquean automáticamente
 después de que el vehículo cambie a posición P y se
 desabroche el cinturón de seguridad del conductor.
 
-196
 
 ![Imagen 21](images/cap10-img21.png)
 
@@ -765,7 +748,6 @@ Introducción
 
 El vehículo cuenta con manijas eléctricas de puerta ocultas, que se pueden operar de la siguiente manera:
 
-197
 
 ![Imagen 25](images/cap10-img25.png)
 
@@ -794,7 +776,6 @@ advertencia
 
 Al usar las manijas de las puertas, tenga cuidado de que los dedos, joyas, uñas acrílicas, etc., no queden atrapados por la puerta o el mecanismo de la manija. De lo contrario, podría provocar daños a objetos o lesiones personales.
 
-198
 
 ![Imagen 27](images/cap10-img27.png)
 
@@ -828,7 +809,6 @@ Cuando el vehículo está desbloqueado, la puerta se puede abrir usando la manij
 
 • Manija de apertura de emergencia o anilla de tracción
 
-199
 
 ![Imagen 29](images/cap10-img29.png)
 
@@ -859,7 +839,6 @@ vez se abre la puerta; no es para uso no urgente,
 no tire de la manija de apertura de emergencia
 mientras conduce.
 
-200
 
 ![Imagen 30](images/cap10-img30.png)
 
@@ -901,7 +880,6 @@ manija/anilla de apertura de emergencia.
 
 Consejos
 
-201
 
 ![Imagen 32](images/cap10-img32.png)
 
@@ -967,7 +945,6 @@ siguientes maneras:
 
 • Llave inteligente a distancia
 
-202
 
 Entrada y salida
 
@@ -987,7 +964,6 @@ pausar el baúl que se está abriendo/cerrando.
 Si el vehículo está bloqueado, mientras lleve la
 llave cerca del baúl, podrá abrir el baúl.
 
-203
 
 ![Imagen 34](images/cap10-img34.png)
 
@@ -1023,7 +999,6 @@ Interruptor de apertura de emergencia
 Si el baúl no se puede abrir, se puede abrir
 mediante las siguientes operaciones:
 
-204
 
 ![Imagen 36](images/cap10-img36.png)
 
@@ -1059,7 +1034,6 @@ El vehículo admite dos métodos (pantalla de control
 central e interruptor interior del baúl) para
 ajustar el ángulo de apertura del baúl:
 
-205
 
 ![Imagen 40](images/cap10-img40.png)
 
@@ -1122,7 +1096,6 @@ En la CID, ve a la interfaz “
  →Ventana y
 Puerta→Configuración de Bienvenida”, y podrás
 
-206
 
 ![Imagen 42](images/cap10-img42.png)
 
@@ -1185,7 +1158,6 @@ aproximación si operas las luces de forma activa
 (por ejemplo, luces bajas, luces altas) o
 desbloqueas el vehículo.
 
-207
 
 ![Imagen 43](images/cap10-img43.png)
 
@@ -1239,7 +1211,6 @@ usa para Apagar.
 
 • Bloquea el vehículo para apagar.
 
-208
 
 ![Imagen 44](images/cap10-img44.png)
 
@@ -1278,7 +1249,6 @@ apagarse de emergencia, vaya a la interfaz “
 toque “Apagar la alimentación eléctrica del
 vehículo” para
 
-209
 
 ![Imagen 45](images/cap10-img45.png)
 
@@ -1351,7 +1321,6 @@ Además, el vehículo se encenderá/apagará
 automáticamente cuando se cumplan ciertas
 condiciones.
 
-210
 
 ![Imagen 48](images/cap10-img48.png)
 
@@ -1392,7 +1361,6 @@ parte trasera del vehículo al bajar y nunca dejes
 solos en el vehículo a niños, personas que necesiten
 asistencia o mascotas.
 
-211
 
 ![Imagen 49](images/cap10-img49.png)
 

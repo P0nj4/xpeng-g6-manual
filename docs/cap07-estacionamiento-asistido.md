@@ -49,7 +49,6 @@ en marcha D a una velocidad inferior a 12 km/h;
 no hay límite de velocidad para la alarma del radar
 cuando está en marcha R.
 
-109
 
 Estacionamiento Asistido
 
@@ -86,7 +85,6 @@ APA no disponible
 
 • Llave inteligente a distancia*
 
-110
 
 ![Imagen 1](images/cap07-img01.png)
 
@@ -147,7 +145,6 @@ plaza de estacionamiento.
 entra en un entorno de estacionamiento, como un
 estacionamiento subterráneo, la función "En tiempo
 
-111
 
 ![Imagen 5](images/cap07-img05.png)
 
@@ -210,7 +207,6 @@ móvil, se permite abrir la puerta/el maletero
 durante cinco minutos después de que el estacionamiento
 remoto se suspenda, y la puerta
 
-112
 
 Estacionamiento Asistido
 
@@ -273,7 +269,6 @@ restablecerse mediante:
 
 • Estacionamiento en el CID: Toca “Continuar” en el CID.
 
-113
 
 Estacionamiento Asistido
 
@@ -335,7 +330,6 @@ del vehículo.
 Cámara Envolvente están sucios u obstruidos (p. ej.,
 lodo, nieve o agua adherida).
 
-114
 
 Estacionamiento Asistido
 
@@ -397,7 +391,6 @@ de emergencia se enciendan.
 
 • Peatones o animales.
 
-115
 
 Estacionamiento Asistido
 
@@ -451,7 +444,6 @@ conducir de forma segura. No confíe en esta
 función para controlar el vehículo, ya que podría
 provocar lesiones o la muerte.
 
-116
 
 Estacionamiento Asistido
 
@@ -503,7 +495,6 @@ vehículo está desconectado.
 • La evasión de obstáculos se activa 3 veces
 durante un solo uso.
 
-117
 
 ![Imagen 7](images/cap07-img07.png)
 
@@ -561,7 +552,6 @@ Introducción
 
 El retroceso con seguimiento es una función que ayuda al conductor a retroceder por la ruta original. Después de entrar en condiciones de carretera difíciles, como callejones sin
 
-118
 
 Estacionamiento Asistido
 
@@ -589,7 +579,6 @@ Al conducir hacia adelante a una velocidad inferior a 20 km/h, el sistema record
 
 2. Detenga el vehículo y cambie a la marcha R.
 
-119
 
 ![Imagen 9](images/cap07-img09.png)
 
@@ -637,7 +626,6 @@ advertencia
 
 Preste atención a la toma de control, ya que puede experimentar lo siguiente al usar el retroceso con seguimiento:
 
-120
 
 Estacionamiento Asistido
 
@@ -655,4 +643,3 @@ No confíe únicamente en el seguimiento cuando utilice los rastros de seguimien
 
 Las advertencias, precauciones y limitaciones anteriores no cubren todas las condiciones que afectan el funcionamiento normal del retroceso con seguimiento.
 
-121

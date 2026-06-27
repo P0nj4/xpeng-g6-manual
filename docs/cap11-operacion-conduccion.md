@@ -43,7 +43,6 @@ delantera del interruptor hacia arriba o hacia abajo.
 
 2. Interruptor de ajuste del soporte lumbar
 
-212
 
 ![Imagen 1](images/cap11-img01.png)
 
@@ -90,7 +89,6 @@ reposacabezas hacia arriba para elevarlo;
 mantenga presionado el interruptor para bajar el
 reposacabezas.
 
-213
 
 Driving Operation
 
@@ -141,7 +139,6 @@ al utilizarlo.
 lumbar accionando el interruptor hacia adelante o
 hacia atrás.
 
-214
 
 ![Imagen 2](images/cap11-img02.png)
 
@@ -166,7 +163,6 @@ en su posición.
 
 Consejos
 
-215
 
 ![Imagen 3](images/cap11-img03.png)
 
@@ -190,7 +186,6 @@ Cuando el respaldo esté bajado, retire los
 objetos de los asientos traseros para evitar interferir
 con el efecto de reclinación.
 
-216
 
 ![Imagen 5](images/cap11-img05.png)
 
@@ -248,7 +243,6 @@ Inicialización del asiento delantero
 Si la funcionalidad del asiento es anormal (p. ej., el asiento
 no se puede ajustar mediante los botones, el control central
 
-217
 
 ![Imagen 7](images/cap11-img07.png)
 
@@ -314,7 +308,6 @@ en la posición más baja y no debe
 ajustarse a esta posición cuando hay un ocupante
 en el vehículo.
 
-218
 
 Operación de conducción
 
@@ -361,7 +354,6 @@ retrovisor exterior de cualquiera de las siguientes maneras:
 
 • La barra de tareas en la parte inferior del CID (si está configurada)
 
-219
 
 ![Imagen 10](images/cap11-img10.png)
 
@@ -404,7 +396,6 @@ lados del volante y los botones izquierdo y
 derecho en la interfaz de ajuste del espejo retrovisor
 exterior.
 
-220
 
 ![Imagen 12](images/cap11-img12.png)
 
@@ -456,7 +447,6 @@ Cuando la función de calefacción de los espejos
 retrovisores exteriores está activada, no la toque con las manos
 para evitar quemaduras.
 
-221
 
 ![Imagen 13](images/cap11-img13.png)
 
@@ -512,7 +502,6 @@ Consejos
 Antes del restablecimiento manual, debe revisar la
 superficie de plegado en busca de objetos extraños como nieve y
 
-222
 
 ![Imagen 15](images/cap11-img15.png)
 
@@ -559,7 +548,6 @@ hasta el tope superior/inferior, luego suéltela, y
 volverá automáticamente a su posición original. La
 luz de giro del lado correspondiente parpadeará.
 
-223
 
 ![Imagen 16](images/cap11-img16.png)
 
@@ -598,7 +586,6 @@ empújela de nuevo para apagar las luces altas.
 adaptarse a la conducción y la carga del vehículo
 según la situación.
 
-224
 
 ![Imagen 17](images/cap11-img17.png)
 
@@ -664,7 +651,6 @@ Condición
 : Toque este botón para encender o apagar
 las luces antiniebla traseras. Si las luces bajas
 
-225
 
 ![Imagen 19](images/cap11-img19.png)
 
@@ -723,7 +709,6 @@ lavado del vehículo,
 
 precaución
 
-226
 
 Operación de Conducción
 
@@ -771,7 +756,6 @@ delantero girando el conmutador correspondiente.
 
 • AUTO: Limpia en función de la lluvia.
 
-227
 
 ![Imagen 22](images/cap11-img22.png)
 
@@ -833,7 +817,6 @@ precaución
 
 Cambie de marcha con el vehículo detenido.
 
-228
 
 Operación de Conducción
 
@@ -867,7 +850,6 @@ mediante las siguientes operaciones:
 del freno y empuje la palanca de cambios hacia
 arriba una marcha y manténgala durante 1 s.
 
-229
 
 ![Imagen 24](images/cap11-img24.png)
 
@@ -931,7 +913,6 @@ de Automóviles XPENG para obtener asistencia.
 cambio de marcha, el instrumento mostrará una
 indicación de texto.
 
-230
 
 ![Imagen 26](images/cap11-img26.png)
 
@@ -968,7 +949,6 @@ freno según su preferencia personal.
 suave y la experiencia de conducción es más
 confortable.
 
-231
 
 ![Imagen 27](images/cap11-img27.png)
 
@@ -1017,7 +997,6 @@ marcha está en D/R/N.
 activado, pise el pedal del acelerador para
 desactivar el AUTO HOLD.
 
-232
 
 ![Imagen 29](images/cap11-img29.png)
 
@@ -1055,7 +1034,6 @@ automática y suavemente la presión de frenado
 para mejorar el confort de frenado del vehículo y
 reducir eficazmente el cabeceo por frenado.
 
-233
 
 ![Imagen 32](images/cap11-img32.png)
 
@@ -1109,7 +1087,6 @@ freno, pise el pedal de freno, cambie a una marcha distinta de P
 una batería descargada, el EPB no se puede
 desactivar; esto se puede solucionar cerrándolo después de un
 
-234
 
 ![Imagen 34](images/cap11-img34.png)
 
@@ -1176,7 +1153,6 @@ El sistema de frenos del G6 no está diseñado para circuito;
 si un usuario individual conduce de forma exigente o busca mejorar el
 tiempo de vuelta en el circuito, se le solicita al usuario que
 
-235
 
 Operación de conducción
 
@@ -1222,7 +1198,6 @@ facilitando una mayor autonomía de conducción.
 Cuando el vehículo se desplaza por inercia o frena, la
 función de regeneración puede convertir parte de la
 
-236
 
 ![Imagen 37](images/cap11-img37.png)
 
@@ -1279,7 +1254,6 @@ una regeneración alta
 1.
 Estado actual de la batería de tracción.
 
-237
 
 ![Imagen 39](images/cap11-img39.png)
 
@@ -1335,7 +1309,6 @@ Al conducir en entornos severos como caminos
 nevados o helados en invierno, se pueden utilizar
 cadenas para neumáticos para
 
-238
 
 ![Imagen 41](images/cap11-img41.png)
 
@@ -1405,7 +1378,6 @@ Tenga en cuenta que la potencia del vehículo puede
 ser insuficiente después de instalar las cadenas.
 Conduzca con cuidado incluso si la carretera está en buen
 
-239
 
 Operación de Conducción
 
@@ -1443,7 +1415,6 @@ mismo tiempo, la IHB se activa y el vehículo
 cambia automáticamente entre luz alta y
 luz baja según el entorno de la carretera:
 
-240
 
 ![Imagen 43](images/cap11-img43.png)
 
@@ -1496,7 +1467,6 @@ funcionamiento normal de la IHB.
 1.
 Ajuste a una posición de conducción adecuada.
 
-241
 
 ![Imagen 48](images/cap11-img48.png)
 
@@ -1546,7 +1516,6 @@ verifique que el volante esté bloqueado,
 
 advertencia
 
-242
 
 Operación de conducción
 
@@ -1574,7 +1543,6 @@ Consejos
 Se recomienda utilizar ambas manos al
 ajustar el ángulo de la lente del espejo interior.
 
-243
 
 ![Imagen 49](images/cap11-img49.png)
 
@@ -1614,7 +1582,6 @@ cualquier suciedad.
 1.
 Elemento fotosensible trasero
 
-244
 
 ![Imagen 51](images/cap11-img51.png)
 
@@ -1653,7 +1620,6 @@ ajustar el ángulo de la lente del espejo interior.
 
 Consejos
 
-245
 
 ![Imagen 52](images/cap11-img52.png)
 
@@ -1695,7 +1661,6 @@ En la pantalla de control central, ve a la interfaz “
 →Conducción→Espejo Retrovisor de Transmisión”.
 Usa la rueda de desplazamiento izquierda para acercar o alejar la imagen, y
 
-246
 
 ![Imagen 55](images/cap11-img55.png)
 
@@ -1734,7 +1699,6 @@ advertencia
 
 • El espejo retrovisor interior de transmisión es solo una ayuda y no sustituye el criterio del conductor sobre el mundo exterior.
 
-247
 
 ![Imagen 57](images/cap11-img57.png)
 
@@ -1788,4 +1752,3 @@ de dispersión y halo, lo que genera una leve
 
 precaución
 
-248

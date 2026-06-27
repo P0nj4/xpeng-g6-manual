@@ -42,7 +42,6 @@ sin frenar o la fuerza de frenado es demasiado pequeña,
 el vehículo frenará de forma activa para reducir las colisiones
 y las lesiones.
 
-122
 
 ![Imagen 1](images/cap08-img01.png)
 
@@ -99,7 +98,6 @@ Indicadores en el cuadro de instrumentos
 
 Advertencia de colisión frontal DESACTIVADA
 
-123
 
 ![Imagen 2](images/cap08-img02.png)
 
@@ -151,7 +149,6 @@ activa", donde podrá activar o desactivar
 condiciones de iluminación, lluvia intensa, nieve
 intensa, niebla densa, etc.
 
-124
 
 ![Imagen 3](images/cap08-img03.png)
 
@@ -229,7 +226,6 @@ aproxima reduce la velocidad de repente.
 • Un vehículo que adelanta desde el frente en
 una curva.
 
-125
 
 Seguridad activa
 
@@ -260,7 +256,6 @@ La asistencia de seguridad de punto ciego es una
 ayuda a la conducción y no puede hacer frente a
 todas las condiciones de tráfico, climáticas y
 
-126
 
 ![Imagen 7](images/cap08-img07.png)
 
@@ -308,7 +303,6 @@ anteriores no cubren todas las condiciones que pueden
 afectar el funcionamiento normal de la función de
 Detección de Punto Ciego.
 
-127
 
 ![Imagen 9](images/cap08-img09.png)
 
@@ -337,7 +331,6 @@ la DOW activa una advertencia de nivel I,
 indicada por la iluminación constante de la luz
 de advertencia en el espejo lateral correspondiente.
 
-128
 
 ![Imagen 11](images/cap08-img11.png)
 
@@ -371,7 +364,6 @@ En el CID, vaya a la interfaz "
 Activa", donde puede activar o desactivar
 la "Advertencia de Apertura de Puertas".
 
-129
 
 ![Imagen 13](images/cap08-img13.png)
 
@@ -423,7 +415,6 @@ Las advertencias, precauciones y limitaciones
 anteriores no cubren todas las condiciones que
 puedan afectar el funcionamiento normal del DOW.
 
-130
 
 ![Imagen 16](images/cap08-img16.png)
 
@@ -462,7 +453,6 @@ funcionar correctamente:
 
 advertencia
 
-131
 
 ![Imagen 17](images/cap08-img17.png)
 
@@ -500,7 +490,6 @@ rango de detección representan un riesgo de
 colisión, el RAEB avisará a través de la interfaz SR
 y un sonido de aviso.
 
-132
 
 ![Imagen 19](images/cap08-img19.png)
 
@@ -551,7 +540,6 @@ como por ejemplo:
 
 advertencia
 
-133
 
 ![Imagen 20](images/cap08-img20.png)
 
@@ -604,7 +592,6 @@ siempre responsabilidad del conductor, y no
 confíe en esta función para controlar el vehículo,
 ya que podrían producirse lesiones o la muerte.
 
-134
 
 ![Imagen 22](images/cap08-img22.png)
 
@@ -659,7 +646,6 @@ advertencia
 
 • Campo de visión limitado.
 
-135
 
 ![Imagen 23](images/cap08-img23.png)
 
@@ -677,7 +663,6 @@ El Asistente de Prevención de Arranque es únicamente una función de ayuda a l
 
 Prevención de obstáculos al arrancar: cuando el vehículo arranca, si se detecta un obstáculo en la dirección de marcha y el conductor pisa el pedal del acelerador demasiado rápido, la respuesta dinámica del vehículo se limitará para evitar un choque con el obstáculo debido a una aceleración demasiado rápida del vehículo eléctrico.
 
-136
 
 ![Imagen 25](images/cap08-img25.png)
 
@@ -704,7 +689,6 @@ En la pantalla de control central, vaya a la interfaz “
 
 Las advertencias, precauciones y limitaciones anteriores no cubren todas las condiciones que pueden afectar el funcionamiento normal del asistente de prevención de obstáculos al arrancar.
 
-137
 
 ![Imagen 26](images/cap08-img26.png)
 
@@ -733,7 +717,6 @@ El LSS es una ayuda a la conducción y no puede hacer frente a todas las condici
 • LDA: Cuando la función LDA está activada y la
 velocidad actual del vehículo es de 60~150 km/h y
 
-138
 
 ![Imagen 28](images/cap08-img28.png)
 
@@ -777,7 +760,6 @@ En la pantalla de control central, vaya a la interfaz “
 podrá configurar el modo de asistencia y las condiciones
 de activación de la Asistencia de Salida de Carril (LDA).
 
-139
 
 ![Imagen 29](images/cap08-img29.png)
 
@@ -844,7 +826,6 @@ advertencia
 
 El LSS puede presentar las siguientes condiciones:
 
-140
 
 Seguridad activa
 
@@ -886,7 +867,6 @@ El TSR puede identificar las señales de límite de
 velocidad en la carretera y obtener la información
 del límite de velocidad en función de
 
-141
 
 ![Imagen 31](images/cap08-img31.png)
 
@@ -948,7 +928,6 @@ Velocidad→Alarma→Sonido de Alarma. El sonido de
 la alarma se emitirá cada vez que se exceda el límite
 de velocidad.
 
-142
 
 ![Imagen 36](images/cap08-img36.png)
 
@@ -988,7 +967,6 @@ conducción. No confíe en esta función
 
 advertencia
 
-143
 
 ![Imagen 37](images/cap08-img37.png)
 
@@ -1043,7 +1021,6 @@ Las advertencias, precauciones y limitaciones
 anteriores no abarcan todas las condiciones que
 pueden afectar el funcionamiento normal del SAS.
 
-144
 
 ![Imagen 38](images/cap08-img38.png)
 
@@ -1083,7 +1060,6 @@ mediante texto y sonido en el tablero de
 instrumentos. Mientras el conductor está
 fatigado o distraído, el sistema
 
-145
 
 ![Imagen 40](images/cap08-img40.png)
 
@@ -1155,7 +1131,6 @@ anteriores no cubren todas las condiciones que
 podrían interferir con el sistema de advertencia
 de fatiga del conductor, y
 
-146
 
 Seguridad activa
 
@@ -1163,4 +1138,3 @@ diversos factores pueden impedir que funcione
 como se espera. Manténgase alerta y vigile
 siempre las condiciones del camino.
 
-147

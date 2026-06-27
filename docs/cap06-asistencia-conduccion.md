@@ -589,7 +589,6 @@ recodos.
 
 • En el cruce o la divergencia de la vía.
 
-100
 
 Asistencia a la Conducción
 
@@ -658,7 +657,6 @@ ejemplo: alineación anormal de las cuatro
 ruedas, presiones anormales de los neumáticos,
 etc.
 
-101
 
 Asistencia a la Conducción
 
@@ -728,7 +726,6 @@ densa).
 • El vehículo de adelante bloquea la vista de la
 cámara o bloquea la línea de carril.
 
-102
 
 Asistencia a la Conducción
 
@@ -777,7 +774,6 @@ secundaria o cuando usted no tenga intención
 de girar, debido a la falta de claridad e
 irregularidad en el
 
-103
 
 ![Imagen 20](images/cap06-img20.png)
 
@@ -808,7 +804,6 @@ En el CID, vaya a la interfaz “
 al Conductor→Conducción”, y podrá activar o
 desactivar el “Cambio de Carril Automático”.
 
-104
 
 ![Imagen 21](images/cap06-img21.png)
 
@@ -865,7 +860,6 @@ vez; para volver a cambiar de carril, encienda la
 
 Consejos
 
-105
 
 ![Imagen 23](images/cap06-img23.png)
 
@@ -925,7 +919,6 @@ en el sistema para hacer frente a emergencias repentinas.
 delante o junto al lateral del
 vehículo, ya que podría colisionar con otros vehículos.
 
-106
 
 Asistencia a la conducción
 
@@ -988,7 +981,6 @@ pueda estabilizar la asistencia al cambio de carril.
 
 • Pueden aparecer caminos con peatones o ciclistas.
 
-107
 
 Asistencia a la conducción
 
@@ -1014,4 +1006,3 @@ Las advertencias, precauciones y limitaciones anteriores no cubren todas las con
 
 • Radar limitado
 
-108

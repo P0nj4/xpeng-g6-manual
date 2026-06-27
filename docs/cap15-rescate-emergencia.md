@@ -16,7 +16,6 @@ En caso de emergencia mientras conduce, presione el interruptor de luz de advert
 
 Operaciones específicas .
 
-334
 
 ![Imagen 1](images/cap15-img01.png)
 
@@ -32,7 +31,6 @@ Cuando el vehículo está estacionado y necesita apagarse en caso de emergencia,
 
 Operaciones específicas .
 
-335
 
 ![Imagen 3](images/cap15-img03.png)
 
@@ -56,7 +54,6 @@ Las herramientas a bordo se encuentran debajo de la tapa del maletero. Abra el m
 
 Este vehículo está equipado con las siguientes herramientas a bordo. Después de usarlas, límpielas rápidamente y devuélvalas a sus lugares designados.
 
-336
 
 ![Imagen 6](images/cap15-img06.png)
 
@@ -86,7 +83,6 @@ Cuando encuentre un problema que requiera que se detenga mientras conduce, retir
 
 - Cuando use un chaleco reflectante, use el lado del material reflectante hacia afuera.
 
-337
 
 ![Imagen 8](images/cap15-img08.png)
 
@@ -108,7 +104,6 @@ La distancia de colocación del triángulo de advertencia detrás del vehículo 
 | Autopista | ≥ 150m | ≥ 150m |
 | Carretera general | ≥ 50m | ≥ 80m |
 
-338
 
 ## Rescate de Emergencia
 
@@ -135,7 +130,6 @@ de la rueda, por favor contacte al Centro de Servicio XPENG.
 destinado únicamente para reparaciones temporales
 de un solo uso. La
 
-339
 
 ![Imagen 10](images/cap15-img10.png)
 
@@ -193,7 +187,6 @@ busque atención médica.
 La fecha de vencimiento está impresa en el cartucho de pegamento
 para llantas. Si la fecha de vencimiento ha pasado, el
 
-340
 
 Rescate de Emergencia
 
@@ -210,7 +203,6 @@ uniformemente.
 
 2. Saque el inflador y el pegamento para llantas del kit.
 
-341
 
 ![Imagen 11](images/cap15-img11.png)
 
@@ -228,7 +220,6 @@ para llantas al inflador y apriételo, y conecte el cable
 de alimentación del inflador a la fuente de alimentación
 de 12V en la caja de almacenamiento del vehículo.
 
-342
 
 ![Imagen 13](images/cap15-img13.png)
 
@@ -274,7 +265,6 @@ c. Observe el indicador de presión y deje de inflar
 una vez que la presión del neumático alcance el
 valor estándar.
 
-343
 
 ![Imagen 15](images/cap15-img15.png)
 
@@ -308,7 +298,6 @@ maletero.
 
 2. Saque el compresor del kit de reparación de emergencia de neumáticos.
 
-344
 
 ![Imagen 16](images/cap15-img16.png)
 
@@ -333,7 +322,6 @@ valor estándar.
 • Consulte la etiqueta de presión de neumático para la
 presión estándar de neumático de la especificación de neumático específica.
 
-345
 
 ![Imagen 17](images/cap15-img17.png)
 
@@ -372,7 +360,6 @@ Introducción
 
 El vehículo es impulsado por batería, y un impacto grave puede llevar a la fuga de alto voltaje. Por esta razón, el rescate del vehículo debe ser realizado por profesionales que usen equipo de protección personal apropiado.
 
-346
 
 Rescate de Emergencia
 
@@ -400,7 +387,6 @@ Si la batería de tracción gotea electrolito, use el siguiente equipo de protec
 
 • Guantes aislados con solvente;
 
-347
 
 Rescate de Emergencia
 
@@ -423,7 +409,6 @@ Cuando la batería LV es baja, la batería de tracción cargará automáticament
 1.
 Abra el maletero delantero y retire la placa de cubierta de mantenimiento.
 
-348
 
 ![Imagen 19](images/cap15-img19.png)
 
@@ -437,7 +422,6 @@ Rescate de Emergencia
 
 5. Después de conectar la energía auxiliar, si el panel de instrumentos o la pantalla de control central aún están iluminados, debe presionar primero el interruptor de apagado de emergencia para apagar; de lo contrario,
 
-349
 
 ![Imagen 20](images/cap15-img20.png)
 
@@ -471,7 +455,6 @@ E-call es el sistema inteligente de llamadas de emergencia del vehículo que mar
 
 advertencia
 
-350
 
 Rescate de Emergencia
 
@@ -495,6 +478,5 @@ En caso de una emergencia, se pueden utilizar los siguientes métodos para llama
 
 • Llamada automática: Cuando el vehículo está involucrado en un choque que desencadena el despliegue de airbag, el sistema iniciará automáticamente una llamada de emergencia.
 
-351
 
 ![Imagen 23](images/cap15-img23.png)

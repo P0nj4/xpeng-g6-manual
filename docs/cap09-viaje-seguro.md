@@ -61,7 +61,6 @@ las luces de advertencia de emergencia.
 
 2. Saque del baúl y póngase su chaleco de seguridad.
 
-148
 
 Viaje con tranquilidad
 
@@ -124,7 +123,6 @@ que el vehículo se balancee.
 
 • Clima severo, como lluvia, nieve, niebla, etc.
 
-149
 
 Viaje Tranquilo
 
@@ -190,7 +188,6 @@ aproximan o luz solar directa.
 detenida, un camión de accidente volcado,
 piedras grandes,
 
-150
 
 Viaje Tranquilo
 
@@ -270,7 +267,6 @@ presión de neumáticos.
 
 • Estado del sistema de control de crucero.
 
-151
 
 Viaje con Tranquilidad
 
@@ -334,7 +330,6 @@ la bolsa de aire que se infla explosivamente,
 
 • lo acuerde el propietario.
 
-152
 
 Viaje con Tranquilidad
 
@@ -392,7 +387,6 @@ el pretensor funcionará simultáneamente
 
 Pretensor del cinturón de seguridad
 
-153
 
 Viaje tranquilo
 
@@ -443,7 +437,6 @@ componentes relacionados deben inspeccionarse y
 
 advertencia
 
-154
 
 ![Imagen 1](images/cap09-img01.png)
 
@@ -483,7 +476,6 @@ para mantenerlos entre el cuello y el hombro.
 
 2. Suelte la guía del cinturón del hombro.
 
-155
 
 ![Imagen 2](images/cap09-img02.png)
 
@@ -529,7 +521,6 @@ El cinturón de seguridad de tipo cadera/hombro debe
 ser usado correctamente por la mujer embarazada. El
 cinturón del hombro debe pasar por el pecho desde una
 
-156
 
 ![Imagen 4](images/cap09-img04.png)
 
@@ -595,7 +586,6 @@ limpiarlo, déjelo secar al aire antes de retraerlo.
 5.
  Indicador de cinturón de seguridad trasero derecho sin abrochar
 
-157
 
 ![Imagen 6](images/cap09-img06.png)
 
@@ -670,7 +660,6 @@ de seguridad.
 estrechamente al cuerpo y no debe estar
 torcido cuando se utiliza. El hombro
 
-158
 
 Viaje tranquilo
 
@@ -726,7 +715,6 @@ segundos y luego se apagará después de que el
 sistema complete su autodiagnóstico. Si el indicador
 no se apaga después del autodiagnóstico del sistema
 
-159
 
 ![Imagen 11](images/cap09-img11.png)
 
@@ -787,7 +775,6 @@ El SRS puede desplegarse en las siguientes situaciones:
 • La parte delantera del vehículo golpea el suelo al
 pasar sobre un surco profundo.
 
-160
 
 Viaje con tranquilidad
 
@@ -846,7 +833,6 @@ Advertencias, precauciones y limitaciones
 navegación portátil) al parabrisas delantero
 por encima del SRS del asiento del pasajero delantero.
 
-161
 
 Viaje con tranquilidad
 
@@ -901,7 +887,6 @@ Para garantizar la seguridad de los niños, utilice
 asientos de seguridad para niños adecuados según su edad,
 peso y altura. Siga estrictamente las
 
-162
 
 Viaje tranquilo
 
@@ -927,7 +912,6 @@ No coloque un asiento para niños orientado hacia atrás en
 un asiento protegido por airbag, ya que esto podría causar
 la muerte o lesiones graves a un niño sentado en él.
 
-163
 
 ![Imagen 13](images/cap09-img13.png)
 
@@ -981,7 +965,6 @@ interfaz de configuración del interruptor.
 • Nunca deje a los niños sin protección en un
 vehículo. Mantenga siempre a los niños en la
 
-164
 
 ![Imagen 14](images/cap09-img14.png)
 
@@ -1038,7 +1021,6 @@ Graco
 Booster Basic
 Cinturón
 
-165
 
 Viaje Tranquilizador
 
@@ -1109,7 +1091,6 @@ Sí
 No
 Sí
 
-166
 
 Viaje Tranquilizador
 
@@ -1148,7 +1129,6 @@ No
 
 No
 R1/R2X/R2/R
-3
 
 Fijación
 orientada
@@ -1172,7 +1152,6 @@ No
 No
 F1/F2X/F2/F3
 
-167
 
 Viaje Tranquilizador
 
@@ -1209,7 +1188,6 @@ posible para instalar de forma segura el SRI.
 altura, y el ángulo del respaldo también puede ajustarse para asegurar que no haya interacción con el
 SRI/niño.
 
-168
 
 Viaje Tranquilizador
 
@@ -1240,7 +1218,6 @@ empuje firmemente el asiento de seguridad para niños
 contra el asiento del vehículo y, al mismo tiempo,
 tense el cinturón de seguridad que quedó flojo.
 
-169
 
 ![Imagen 16](images/cap09-img16.png)
 
@@ -1255,7 +1232,6 @@ detrás de los respaldos de los asientos traseros.
 Coloque el asiento de seguridad para niños en el
 asiento exterior trasero del acompañante.
 
-170
 
 ![Imagen 18](images/cap09-img18.png)
 
@@ -1311,7 +1287,6 @@ Los niños menores de dos años aún no han
 Asegúrese de que el asiento de seguridad para niños
 no quede flojo después de la instalación:
 
-171
 
 ![Imagen 21](images/cap09-img21.png)
 
@@ -1378,7 +1353,6 @@ quedar alejada del abdomen.
 segura, siga siempre todas las instrucciones
 detalladas en este manual
 
-172
 
 Viaje Tranquilo
 
@@ -1416,7 +1390,6 @@ Consejos
 infantil cuando el niño esté sentado en la fila
 trasera.
 
-173
 
 ![Imagen 22](images/cap09-img22.png)
 
@@ -1460,7 +1433,6 @@ En el CID, vaya a la interfaz “
 donde podrá seleccionar “Efecto de Sonido de
 Simulación de Sonido a Baja Velocidad”.
 
-174
 
 ![Imagen 24](images/cap09-img24.png)
 
@@ -1528,7 +1500,6 @@ neumáticos.
 
 Apertura y cierre
 
-175
 
 Viaje con tranquilidad
 
@@ -1579,7 +1550,6 @@ distancia de frenado, no
 
 advertencia
 
-176
 
 ![Imagen 26](images/cap09-img26.png)
 
@@ -1653,7 +1623,6 @@ mantenga pisado el pedal del freno. El EBA
 generará una presión de frenado mayor que la
 del frenado normal,
 
-177
 
 Viaje tranquilo
 
@@ -1711,7 +1680,6 @@ El HDC es una función de control de crucero que
 puede ayudar al conductor a circular cuesta abajo a
 velocidad constante y aliviar la fatiga del pie causada por
 
-178
 
 Viaje Tranquilo
 
@@ -1754,7 +1722,6 @@ vehículo está entre 8 km/h y 35 km/h. Si
 pisa el pedal de freno o el pedal del acelerador
 durante el funcionamiento del HDC, la función HDC se
 
-179
 
 ![Imagen 28](images/cap09-img28.png)
 

@@ -33,7 +33,6 @@ Tire del tirador del capó frontal ubicado en el lado inferior derecho del panel
 
 • Si se encuentran objetos extraños en la superficie de la cámara, limpie con un paño suave o límpielo usando agua (baja presión de agua).
 
-309
 
 ![Imagen 1](images/cap14-img01.png)
 
@@ -50,7 +49,6 @@ Baje el capó frontal hasta que el cierre del capó se enganche en el pestillo.
 
 3. Después de cerrar, asegúrese de que el capó frontal esté bien bloqueado. El módulo del panel de instrumentos mostrará el estado de apertura y cierre del capó.
 
-310
 
 ![Imagen 2](images/cap14-img02.png)
 
@@ -82,7 +80,6 @@ Verifique la marca de nivel en el lado del depósito de refrigerante:
 
 • MAX: Marca de límite superior
 
-311
 
 ![Imagen 4](images/cap14-img04.png)
 
@@ -100,7 +97,6 @@ Para maximizar el rendimiento y la vida útil de la batería de tracción, el mo
 
 Utilizando las herramientas apropiadas, retire el panel decorativo del compartimento del motor delantero para exponer el depósito de refrigerante.
 
-312
 
 ![Imagen 5](images/cap14-img05.png)
 
@@ -130,7 +126,6 @@ Verifique la marca de nivel en el costado del depósito de líquido de frenos:
 
 El nivel de líquido de frenos debe estar entre las marcas MÍN y MÁX. Si es inferior a la marca MÍN, agregue líquido de frenos aprobado por XPENG a tiempo.
 
-313
 
 ![Imagen 7](images/cap14-img07.png)
 
@@ -154,7 +149,6 @@ Operación
 
 1. Envuelva un destornillador de cabeza plana con un paño, luego retire el acabado superior del depósito de líquido
 
-314
 
 ![Imagen 8](images/cap14-img08.png)
 
@@ -181,7 +175,6 @@ El panel de instrumentos puede mostrar mensajes de texto relevantes para adverti
 
 • Si la luz de advertencia del sistema de frenado no se apaga o se enciende mientras conduces, el nivel del fluido de frenos es bajo y deberías detenerte inmediatamente para prevenir accidentes. No continúes conduciendo; contacta al Centro de Servicio de Automóviles XPENG lo antes posible.
 
-315
 
 Mantenimiento Diario
 
@@ -197,7 +190,6 @@ Activa periódicamente el limpiaparabrisas para verificar obstrucciones de boqui
 
 • No almacenes fluido de frenos en un recipiente de alimentos vacío, botella o cualquier contenedor de fluido de frenos no genuino, ya que esto puede llevar a la interpretación errónea del fluido de frenos como alimento. ¡Causa envenenamiento!
 
-316
 
 ![Imagen 10](images/cap14-img10.png)
 
@@ -221,7 +213,6 @@ advertencia
 
 4. Agrega fluido del limpiaparabrisas hasta que el nivel del fluido esté justo debajo de la boca de llenado.
 
-317
 
 ![Imagen 11](images/cap14-img11.png)
 
@@ -243,7 +234,6 @@ En la pantalla de control central, ve a "→Vehículo" interfaz, y activa "Modo 
 
 Pon el vehículo en posición P y mantén los limpiaparabrisas apagados. En la pantalla de control central, ve a "→Vehículo" interfaz, y puedes activar o desactivar "Modo de Mantenimiento del Limpiaparabrisas Frontal/Trasero". El brazo del limpiaparabrisas se moverá a su posición de mantenimiento, y al desactivar el Modo de Mantenimiento del Limpiaparabrisas, el brazo del limpiaparabrisas trasero volverá automáticamente a su posición original.
 
-318
 
 ![Imagen 12](images/cap14-img12.png)
 
@@ -268,7 +258,6 @@ En la pantalla de control central, ve a "→Vehículo" interfaz, y activa "Modo 
 
 3. Al instalar, levanta el brazo del limpiaparabrisas e inserta la protuberancia de la nueva hoja del limpiaparabrisas en la CAM del brazo del limpiaparabrisas. Cuando escuches un "clic". Indica una instalación correcta.
 
-319
 
 ![Imagen 14](images/cap14-img14.png)
 
@@ -341,7 +330,6 @@ La batería de tracción se descargará lentamente, incluso si el vehículo no e
 
 La vida útil de la batería de tracción también se ve afectada por la temperatura ambiente. Cuando la temperatura ambiente es baja, la autonomía de conducción del vehículo puede disminuir y el tiempo de carga aumentará.
 
-321
 
 Mantenimiento Diario
 
@@ -367,7 +355,6 @@ Para vehículos equipados con baterías de fosfato de hierro y litio, siga estas
 
 Mantenimiento de la batería de fosfato de hierro y litio
 
-322
 
 Mantenimiento Diario
 
@@ -431,7 +418,6 @@ de carga lenta para desbloqueo de emergencia
 o póngase en contacto con el Centro de
 Servicio de Automóviles XPENG.
 
-323
 
 Mantenimiento Diario
 
@@ -480,7 +466,6 @@ marca de desgaste deben reemplazarse.
 neumáticos, realice una inspección de
 alineación de cuatro ruedas.
 
-324
 
 ![Imagen 17](images/cap14-img17.png)
 
@@ -519,7 +504,6 @@ Reemplazo de neumáticos y ruedas
 
 Debido a la exposición a los rayos UV, temperaturas extremas, cargas pesadas y condiciones ambientales, los neumáticos envejecen naturalmente con el tiempo. El desgaste normal de los neumáticos ocurre durante la conducción regular, incluyendo
 
-325
 
 ![Imagen 18](images/cap14-img18.png)
 
@@ -551,7 +535,6 @@ Neumáticos de invierno
 
 • La presión baja de los neumáticos también puede reducir el alcance del vehículo y la vida útil de la banda de rodadura.
 
-326
 
 Mantenimiento Diario
 
@@ -585,7 +568,6 @@ En invierno, seca las costuras alrededor de las manijas de las puertas después 
 
 Retira rápidamente las sustancias corrosivas (excrementos de aves, savia de árboles, insectos, manchas de alquitrán, sal de carretera,
 
-327
 
 Mantenimiento diario
 
@@ -620,7 +602,6 @@ Mezcla un limpiador de vehículos neutro de alta calidad con agua fría o tibia.
 
 4. Enjuague con agua limpia
 
-328
 
 Mantenimiento diario
 
@@ -656,7 +637,6 @@ Por lo general se limpia con agua limpia, paño suave y cepillo suave.
 
 • Si hay residuos de goma, grasa y silicona en el vidrio, deben ser removidos
 
-329
 
 Mantenimiento Diario
 
@@ -690,7 +670,6 @@ Limpie las escobillas del limpiaparabrisas de la siguiente manera:
 
 • En invierno o condiciones frías, siempre verifique que las escobillas del limpiaparabrisas estén congeladas con el
 
-330
 
 ![Imagen 19](images/cap14-img19.png)
 
@@ -780,6 +759,5 @@ Para extender la vida útil de la alfombra y facilitar la limpieza, use auténti
 
 En la pantalla de control central, vaya a la interfaz "Pantalla" o mediante el panel de acceso directo de la pantalla de control central, habilite "Limpieza de pantalla" antes de limpiar el control central
 
-333
 
 ![Imagen 20](images/cap14-img20.png)

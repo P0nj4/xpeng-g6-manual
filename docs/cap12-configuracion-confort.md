@@ -41,7 +41,6 @@ impacto en la vida útil de la batería.
 
 2. Modo de ahorro de energía
 
-249
 
 ![Imagen 1](images/cap12-img01.png)
 
@@ -81,7 +80,6 @@ ajustar manualmente.
 • Toca el área debajo de PM2.5 en la pantalla de control
 central para iniciar la purificación.
 
-250
 
 ![Imagen 3](images/cap12-img03.png)
 
@@ -101,7 +99,6 @@ a la izquierda o derecha, ajusta la dirección deslizando
 hacia arriba o hacia abajo, y cierra la rejilla de aire
 deslizando completamente a la izquierda o derecha.
 
-251
 
 ![Imagen 4](images/cap12-img04.png)
 
@@ -131,7 +128,6 @@ cambiar a la interfaz de configuración de aire acondicionado frontal/trasero.
 
 • Muestra la calidad del aire fuera del vehículo.
 
-252
 
 ![Imagen 6](images/cap12-img06.png)
 
@@ -203,7 +199,6 @@ calefacción y descongelación durante
 mucho tiempo para evitar que la batería
 de 12V se agote
 
-253
 
 ![Imagen 8](images/cap12-img08.png)
 
@@ -278,7 +273,6 @@ temperatura del asiento del conductor y la
 temperatura del asiento del pasajero para
 ajustar sincronizadamente.
 
-254
 
 ![Imagen 13](images/cap12-img13.png)
 
@@ -335,7 +329,6 @@ y tócala para ejecutar la función establecida.
 
 Activa o cancela la voz de Xpeng.
 
-255
 
 ![Imagen 17](images/cap12-img17.png)
 
@@ -379,7 +372,6 @@ desplázate hacia arriba y hacia abajo para girar el espejo lateral derecho.
 
 Toca el área del símbolo del claxon para sonar el claxon.
 
-256
 
 ![Imagen 18](images/cap12-img18.png)
 
@@ -418,7 +410,6 @@ El volante climatizado se puede controlar de las siguientes formas:
 
 • Asistencia de Voz de Xpeng
 
-257
 
 ![Imagen 19](images/cap12-img19.png)
 
@@ -469,7 +460,6 @@ advertencia
 
 – Interruptor de ventana del lado del pasajero
 
-258
 
 ![Imagen 21](images/cap12-img21.png)
 
@@ -495,7 +485,6 @@ Interruptor de ventana del lado del asiento del conductor
 
 5. Interruptor de regulador de ventana de la puerta trasera izquierda
 
-259
 
 ![Imagen 22](images/cap12-img22.png)
 
@@ -525,7 +514,6 @@ activada, el indicador en el interruptor se
 ilumina. En este momento, los interruptores de
 ventana en
 
-260
 
 ![Imagen 23](images/cap12-img23.png)
 
@@ -594,7 +582,6 @@ cerrada.
 Se recomienda activar el modo de ciclo externo
 cuando la ventana se cierra automáticamente
 
-261
 
 ![Imagen 26](images/cap12-img26.png)
 
@@ -637,7 +624,6 @@ El parasol se puede girar hacia abajo en la
 dirección de la flecha para bloquear la luz solar
 que entra a través del parabrisas delantero.
 
-262
 
 ![Imagen 27](images/cap12-img27.png)
 
@@ -670,7 +656,6 @@ vista hacia adelante, si ya no es necesario usar
 la visera del sol, debe ser retraída hacia el 
 soporte.
 
-263
 
 ![Imagen 28](images/cap12-img28.png)
 
@@ -714,7 +699,6 @@ después de que el vehículo ha estado expuesto
 al sol, no lo toques, ya que existe riesgo de 
 quemaduras.
 
-264
 
 ![Imagen 30](images/cap12-img30.png)
 
@@ -760,7 +744,6 @@ advertencia
 
 Luz de Lectura Trasera
 
-265
 
 ![Imagen 31](images/cap12-img31.png)
 
@@ -785,7 +768,6 @@ El vehículo está equipado con luces ambientes
 que pueden cambiar de color en sincronía con 
 el ritmo de la música,
 
-266
 
 ![Imagen 32](images/cap12-img32.png)
 
@@ -826,7 +808,6 @@ Una vez que las luces ambientales están encendidas, puedes ajustar su brillo ma
 
 • CID
 
-267
 
 ![Imagen 35](images/cap12-img35.png)
 
@@ -855,7 +836,6 @@ haz clic en "
 
 • El uso prolongado de asientos calentados a alta velocidad puede causar fácilmente daño por baja temperatura.
 
-268
 
 ![Imagen 37](images/cap12-img37.png)
 
@@ -900,7 +880,6 @@ Puedes controlar el masaje del asiento de las siguientes maneras:
 
 • Pantalla de control central
 
-269
 
 ![Imagen 39](images/cap12-img39.png)
 
@@ -935,7 +914,6 @@ Sugerencias
 
 1. Toca " " para seleccionar el asiento a ajustar.
 
-270
 
 ![Imagen 41](images/cap12-img41.png)
 
@@ -963,7 +941,6 @@ Toca "Cambio Inteligente". El vehículo cambiará automáticamente al "Modo de C
 
 En la pantalla de control central, ve a la interfaz " →Sonidos→Altavoz del Conductor" y puedes configurar el modo de sonido del conductor.
 
-271
 
 ![Imagen 44](images/cap12-img44.png)
 
@@ -985,7 +962,6 @@ Precaución
 
 Algunos teléfonos móviles no tienen función de carga inalámbrica; el teléfono móvil colocado en el panel de carga inalámbrica puede causar que la
 
-272
 
 ![Imagen 46](images/cap12-img46.png)
 
@@ -1017,7 +993,6 @@ La carga inalámbrica se detendrá en los siguientes casos:
 
 • El maletero se cerrará con la puerta delantera izquierda desbloqueada y las cuatro puertas cerradas.
 
-273
 
 ![Imagen 50](images/cap12-img50.png)
 
@@ -1041,7 +1016,6 @@ Configuración de confort
 
 • Por favor, no coloque objetos pesados en el área de carga para evitar dañar el módulo de carga inalámbrica.
 
-274
 
 Configuración de Confort
 
@@ -1067,7 +1041,6 @@ Puerto de fuente de medios USB: se usa para transmitir datos de video de conducc
 1.
 El puerto de alimentación Type-C admite una potencia máxima de 15W.
 
-275
 
 ![Imagen 51](images/cap12-img51.png)
 
@@ -1086,7 +1059,6 @@ En la pantalla de control central, vaya a "
 
 Puerto de alimentación de 12V: Tiene una potencia máxima de 180 W.
 
-276
 
 ![Imagen 53](images/cap12-img53.png)
 
@@ -1117,7 +1089,6 @@ No coloque objetos en la persiana cuando esté desplegada, ya que esto dañará 
 
 advertencia
 
-277
 
 ![Imagen 56](images/cap12-img56.png)
 
@@ -1135,7 +1106,6 @@ La puerta tiene un compartimiento de almacenamiento adecuado para sostener bebid
 
 La consola está equipada con una caja de apoyabrazos central, que se puede abrir presionando el interruptor.
 
-278
 
 ![Imagen 57](images/cap12-img57.png)
 
@@ -1155,7 +1125,6 @@ Evite colocar piezas pequeñas y otros desechos al usar el portavasos para evita
 
 precaución
 
-279
 
 ![Imagen 59](images/cap12-img59.png)
 
@@ -1193,7 +1162,6 @@ facturas y revistas.
 daños al vehículo debido a fugas de fluidos.
 Limpie si ocurre una fuga.
 
-280
 
 ![Imagen 61](images/cap12-img61.png)
 
@@ -1240,7 +1208,6 @@ Antes de decidir remolcar una autocaravana, primero debe
 revisar las regulaciones de vehículos motorizados en su
 región. Como las regulaciones varían entre regiones, es
 
-281
 
 ![Imagen 63](images/cap12-img63.png)
 
@@ -1285,7 +1252,6 @@ Instrucciones de conducción
 
 Remolcar un remolque puede afectar la manejabilidad y el rendimiento de frenado de tu vehículo. Para garantizar un remolque seguro y proteger la seguridad tuya y la de tus pasajeros, sigue estas recomendaciones de conducción:
 
-282
 
 Configuración de comodidad
 
@@ -1306,7 +1272,6 @@ Cuando el vehículo está en marcha P, en la pantalla de control central, ve a l
 
 precaución
 
-283
 
 ![Imagen 64](images/cap12-img64.png)
 
@@ -1346,7 +1311,6 @@ El modo de remolque no se activará cuando:
 
 • Cuando el modo de elevación o modo de transporte marítimo está activado.
 
-284
 
 Configuración de comodidad
 
@@ -1372,12 +1336,10 @@ Cuando el conector eléctrico no está
 conectado a la interfaz del remolque, no utilice
 una pistola de agua a alta presión para limpiar
 
-1
 Alambre
 amarillo
 Luces de giro izquierdo
 
-285
 
 ![Imagen 69](images/cap12-img69.png)
 
@@ -1385,7 +1347,6 @@ Luces de giro izquierdo
 
 Configuración de Confort
 
-2
 Alambre
 azul y
 blanco
@@ -1395,12 +1356,10 @@ luces de marcha atrás
 Alambre
 de espera
 
-3
 Alambre
 blanco
 Cable de tierra principal 1-8 pin
 
-4
 Alambre
 verde
 Luces de giro derecho
@@ -1411,19 +1370,16 @@ blanca
 
 Cable de tierra de 9 pines
 
-5
 Alambre
 marrón
 Luces de circulación derechas
 
-6
 Alambre
 rojo
 Luces de freno
 
 Espejo Retrovisor y Soporte
 
-7
 Alambre
 negro
 Luz de circulación izquierda (puede
@@ -1434,17 +1390,14 @@ con los estándares normativos. Si no son
 adecuados, instale espejos laterales de remolque
 apropiados.
 
-8
 Alambre
 rosa
 Luces de marcha atrás
 
-9
 Alambre
 naranja
 Hacia la batería
 
-10
 Alambre
 gris
 Batería o refrigerador
@@ -1455,7 +1408,6 @@ blanco
 
 Cable de tierra de 10 pines
 
-286
 
 Configuración de Confort
 
@@ -1472,11 +1424,9 @@ Masa de remolque máxima
 permitida (sin freno)
 [kg]
 
-750
 
 Carga de lengüeta máxima
 [kg]
-75
 
 Tipo I
 
@@ -1510,7 +1460,6 @@ parámetros detallados.
 
 12000*2550*4000
 
-287
 
 ![Imagen 71](images/cap12-img71.png)
 
@@ -1540,7 +1489,6 @@ regulación ECE R55
 La masa de remolque denota el peso combinado
 del remolque y su carga.
 
-288
 
 ![Imagen 72](images/cap12-img72.png)
 
@@ -1582,7 +1530,6 @@ Acelera gradualmente y evita aceleraciones súbitas o frenadas de emergencia. En
 
 La potencia de las luces traseras del remolque no debe exceder los valores especificados a continuación:
 
-289
 
 ![Imagen 73](images/cap12-img73.png)
 
@@ -1610,7 +1557,6 @@ Adelantamiento
 
 Al remolcar un remolque, la longitud combinada del vehículo y el remolque se extiende. Por lo tanto, durante el adelantamiento, cuenta con una distancia de paso más larga para regresar de forma segura a tu carril original.
 
-290
 
 Configuración de Confort
 
@@ -1628,7 +1574,6 @@ Cuando el conductor sale del auto, puede asegurar la seguridad de las mascotas d
 
 En la interfaz CID "→Vehículo" para habilitar el modo mascotas.
 
-291
 
 ![Imagen 74](images/cap12-img74.png)
 
@@ -1650,7 +1595,6 @@ Consejos
 
 Cuando el nivel de batería del vehículo es inferior al 5% o la función del vehículo es anormal (como una anomalía del aire acondicionado), el modo mascotas
 
-292
 
 ![Imagen 76](images/cap12-img76.png)
 
@@ -1660,4 +1604,3 @@ Configuración de Confort
 
 saldrá automáticamente, y luego las ventanas se abrirán un 10% para garantizar la circulación de aire en el automóvil. Al mismo tiempo, la aplicación del teléfono móvil recibirá un mensaje de recordatorio.
 
-293

@@ -6,7 +6,6 @@ Parámetros del Vehículo
 
 Dimensiones
 
-352
 
 ![Imagen 1](images/cap16-img01.png)
 
@@ -37,21 +36,15 @@ Batalla (mm)
 2890
 
 Suspensión delantera (mm)
-903
 
 Suspensión trasera (mm)
-965
 
 Número de ocupantes
-5
 
 Ángulo de aproximación (carga completa) (°)
-14
 
 Ángulo de salida (carga completa) (°)
-18
 
-353
 
 Información del Vehículo
 
@@ -115,7 +108,6 @@ Eje trasero (kg)
 1492
 1490
 
-354
 
 Información del Vehículo
 
@@ -123,7 +115,6 @@ Consejos
 
 El rango de tolerancia del parámetro de masa es ±3%, excepto para la masa total máxima.
 
-355
 
 Información del Vehículo
 
@@ -134,12 +125,9 @@ Diámetro mínimo de giro
 11.6
 
 Velocidad máxima (km/h)
-202
 
 Pendiente máxima (%)
-30
 
-356
 
 Información del Vehículo
 
@@ -157,7 +145,6 @@ Ruedas delanteras (sin carga/
 media carga/carga completa)
 (kPa)
 
-250
 
 Presión
 
@@ -165,7 +152,6 @@ Ruedas traseras (sin carga/
 media carga/carga completa)
 (kPa)
 
-270
 
 Ruedas delanteras, lado interior
 (g)
@@ -186,7 +172,6 @@ Ruedas traseras, lado exterior
 (g)
 ≤8
 
-357
 
 Información del Vehículo
 
@@ -200,7 +185,6 @@ Dirección asistida eléctrica
 
 Límite de desgaste de la pastilla de freno de la rueda delantera (sin incluir
 la placa de soporte) (mm)
-1
 
 Recorrido libre o recorrido sin carga del pedal de freno (mm)
 ≤2
@@ -210,10 +194,8 @@ la placa de soporte) (mm)
 3.3
 
 Límite de desgaste del disco de freno delantero (mm)
-26
 
 Límite de desgaste del disco de freno trasero (mm)
-20
 
 Tipo de suspensión delantera
 Suspensión independiente de doble brazo
@@ -221,7 +203,6 @@ Suspensión independiente de doble brazo
 Tipo de suspensión trasera
 Suspensión independiente de múltiples brazos
 
-358
 
 Información del Vehículo
 
@@ -245,7 +226,6 @@ Convergencia de rueda trasera individual
 Ángulo de inclinación de rueda trasera
 -1.36°±0.5°
 
-359
 
 Información del Vehículo
 
@@ -271,7 +251,6 @@ eléctrica delantero
 Sistema de propulsión
 eléctrica trasero
 
-360
 
 Información del Vehículo
 
@@ -291,15 +270,9 @@ Tipo
 Potencia nominal (kW)
 110*/218/185
 218/185
-50
-110
 
 Par nominal
 (N·m)
-170
-170
-50
-170
 
 Motor eléctrico
 
@@ -312,17 +285,9 @@ Velocidad nominal
 
 Potencia máxima
 (kW)
-185
-218
-140
-218
 
 Par máximo
 (N·m)
-440
-440
-220
-440
 
 Velocidad máxima
 (rpm)
@@ -340,12 +305,7 @@ Modelo
 Reductor
 
 Número de engranajes
-1
-1
-1
-1
 
-361
 
 Información del vehículo
 
@@ -381,7 +341,6 @@ Ajuste del
 cojín
 El recorrido total es 6°, con 5° hacia arriba y 1° hacia abajo
 
-362
 
 Información del vehículo
 
@@ -403,7 +362,6 @@ arriba/abajo
 Recorrido total 69,5 mm, 35,6 mm hacia arriba y 33,9 mm
 hacia abajo
 
-363
 
 Información del vehículo
 
@@ -451,9 +409,7 @@ R134a*
 Líquido limpiaparabrisas
 (L)
 /
-3
 
-364
 
 Información del vehículo
 
@@ -487,7 +443,6 @@ piso trasero.
 7. Colocada en el panel interno de la puerta trasera
 derecha.
 
-365
 
 ![Imagen 2](images/cap16-img02.png)
 
@@ -513,7 +468,6 @@ encuentra en el pilar B del lado del pasajero y
 se puede ver después de abrir la puerta del lado
 del pasajero.
 
-366
 
 ![Imagen 4](images/cap16-img04.png)
 
@@ -539,7 +493,6 @@ El modelo y número de serie del motor de tracción se muestran en la carcasa de
 
 Solo se pueden usar piezas originales XPENG genuinas o aprobadas. XPENG ha realizado pruebas rigurosas en las piezas para garantizar su idoneidad, seguridad y confiabilidad. Estas piezas solo pueden ser
 
-367
 
 ![Imagen 6](images/cap16-img06.png)
 
@@ -563,7 +516,6 @@ El SRR se encuentra ubicado dentro de los parachoques delantero y trasero. Está
 
 Las modificaciones de componentes electrónicos, software o cableado pueden afectar la funcionalidad y el funcionamiento normal de componentes relacionados, particularmente sistemas relacionados con la seguridad, impactando así la operación del vehículo e incrementando el riesgo de accidentes o lesiones.
 
-368
 
 Vehicle Information
 
@@ -590,6 +542,5 @@ advertencia
 
 • Seleccione la ubicación alrededor de la ventana de ondas de radio al colocar las marcas necesarias para las regulaciones de tráfico.
 
-369
 
 ![Imagen 8](images/cap16-img08.png)

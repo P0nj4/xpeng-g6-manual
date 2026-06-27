@@ -39,7 +39,6 @@ de carga para abrirla.
 – " 
  →Ventanas y Puertas"Interfaz
 
-294
 
 ![Imagen 1](images/cap13-img01.png)
 
@@ -67,7 +66,6 @@ control central para acceder al panel de atajos.
 En el panel de atajos, puede abrir o cerrar
 "Puerto de Carga".
 
-295
 
 ![Imagen 3](images/cap13-img03.png)
 
@@ -114,7 +112,6 @@ instrumentos.
 
 Aviso para tapa del puerto de carga no cerrada
 
-296
 
 ![Imagen 7](images/cap13-img07.png)
 
@@ -165,7 +162,6 @@ Consejos
 
 • Aplicación móvil
 
-297
 
 ![Imagen 9](images/cap13-img09.png)
 
@@ -204,7 +200,6 @@ Puerto de carga
 
 2. Puerto de carga rápida
 
-298
 
 ![Imagen 11](images/cap13-img11.png)
 
@@ -266,7 +261,6 @@ pantalla de carga mostrará una falla
 haber situaciones donde la eficiencia de carga se reduce o la carga
 no es posible. Cuando la batería de tracción
 
-299
 
 Instrucciones de Carga
 
@@ -297,7 +291,6 @@ Advertencias, Precauciones y Limitaciones
 
 • Se aconseja elegir estaciones de carga con sombra y refugios para lluvia para evitar que la lluvia o nieve salpique el puerto de carga al conectar o desconectar la pistola de carga.
 
-300
 
 Instrucciones de Carga
 
@@ -325,7 +318,6 @@ Si varios intentos de desbloqueo usando el botón de emergencia en la pantalla d
 
 • No desmantele ni modifique el puerto de carga o el cable de carga.
 
-301
 
 Instrucciones de Carga
 
@@ -342,7 +334,6 @@ Abra el maletero y retire la placa de cubierta de reparación del maletero con h
 
 • Si no puede desbloquear la pistola de carga usando el anillo de desbloqueo de emergencia del puerto de carga, comuníquese con el Centro de Servicio XPENG de manera oportuna.
 
-302
 
 ![Imagen 13](images/cap13-img13.png)
 
@@ -396,7 +387,6 @@ En la pantalla de control central, vaya a la interfaz "
 
 Puede habilitar o deshabilitar la función de precalentamiento de batería de baja temperatura por cualquiera de los siguientes medios:
 
-304
 
 ![Imagen 17](images/cap13-img17.png)
 
@@ -430,7 +420,6 @@ Cuando se utiliza la pantalla de control central para navegar a una estación de
 
 • El precalentamiento de la batería a baja temperatura aumentará ligeramente la pila de carga de CA
 
-305
 
 Instrucciones de Carga
 
@@ -450,7 +439,6 @@ En la pantalla de control central, vaya a "→Carga y Descarga→Carga" interfaz
 
 Cuando se dirige a una estación de carga conocida sin la función de navegación habilitada, puede activar o desactivar manualmente o por voz la función "Precondicionamiento de temperatura de batería ahora".
 
-306
 
 ![Imagen 19](images/cap13-img19.png)
 
@@ -488,7 +476,6 @@ Pasos de operación de descarga externa
 
 2. Retire la cubierta de sello del puerto de carga.
 
-307
 
 ![Imagen 21](images/cap13-img21.png)
 
@@ -523,6 +510,5 @@ Se recomienda utilizar pilas de carga de corriente directa u AC oficiales al cal
 
 Consejos
 
-308
 
 ![Imagen 23](images/cap13-img23.png)
